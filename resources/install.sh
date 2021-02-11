@@ -3,7 +3,8 @@ echo "2. Dark-N-Purple - Panel Version: 1.2.2"
 echo "3. Enola - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
 echo "4. Recolor - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
 echo "5. Twilight - Panel Version: 1.1.3, 1.2.0, 1.2.1, and 1.2.2"
-echo "6. Cancel"
+echo "6. Uninstall"
+echo "7. Cancel"
 echo ""
 echo ""
 echo "Screenshots of the themes can be found at: https://github.com/OreoKitten/PteroThemes"
@@ -34,6 +35,11 @@ if [ $choice == "5" ]
     bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/twilight/install.sh)
 fi
 if [ $choice == "6" ]
+    then
+    echo "Uninstalling..."
+    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/uninstall/uninstall.sh)
+fi
+if [ $choice == "7" ]
     then
     echo "Canceling..."
     exit 0
