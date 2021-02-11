@@ -4,17 +4,17 @@ All credits go to Oreo, https://github.com/OreoKitten/PteroThemes.
 I Just made install scripts for all of the themes because its tricky to install them.  
 Will probably make an uninstall script soon aswell!
 
-## Dracula
+## Dracula - Panel Version: 1.2.0, 1.2.1, and 1.2.2
 `bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/dracula/install.sh)`
 
-## Dark-N-Purple
+## Dark-N-Purple - Panel Version: 1.2.2
 `bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/dark-n-purple/install.sh)`
 
-## Enola
+## Enola - Panel Version: 1.2.0, 1.2.1, and 1.2.2
 `bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/enola/install.sh)`
 
-## Recolor
+## Recolor - Panel Version: 1.2.0, 1.2.1, and 1.2.2
 `bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/recolor/install.sh)`
 
-## Twilight
+## Twilight - Panel Version: 1.1.3, 1.2.0, 1.2.1, and 1.2.2
 `bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/twilight/install.sh)`
