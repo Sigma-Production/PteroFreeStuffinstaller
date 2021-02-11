@@ -1,5 +1,6 @@
 # How to install
-**ALL THESE COMMANDS MUST BE RAN BY ROOT!**\n
+**ALL THESE COMMANDS MUST BE RAN BY ROOT!**
+---------
 All credits go to Oreo, https://github.com/OreoKitten/PteroThemes.
 I Just made install scripts for all of the themes because its tricky to install them. Will probably make an uninstall script soon aswell!
 
