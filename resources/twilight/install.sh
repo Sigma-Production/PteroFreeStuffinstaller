@@ -15,6 +15,8 @@ rm -rf admin.blade.php
 wget https://raw.githubusercontent.com/DeveloperNeon/ptero-1.0-theme-install/main/resources/twilight/admin.blade.php
 npm install yarn -g
 yarn install
+yarn add @emotion/react
+rm -rf /var/www/pterodactyl/resources/scripts/hoc/requireServerPermission.tsx
 yarn build:production
 cd ../../..
 php /var/www/pterodactyl/artisan up
