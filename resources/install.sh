@@ -10,9 +10,6 @@ if [ $choice == "1" ]
     then
     echo "Installing Dracula..."
     bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/dracula/install.sh)
-    else
-    echo Inalid Option
-    exit 0
 fi
 if [ $choice == "2" ]
     then
@@ -37,8 +34,5 @@ fi
 if [ $choice == "6" ]
     then
     echo "Canceling..."
-    exit 0
-    else
-    echo Inalid Option
     exit 0
 fi
