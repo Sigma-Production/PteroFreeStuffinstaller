@@ -1,10 +1,12 @@
-echo "1. Dracula - Panel Version: 1.2.0, 1.2.1, and 1.2.2\n"
-echo "2. Dark-N-Purple - Panel Version: 1.2.2\n"
-echo "3. Enola - Panel Version: 1.2.0, 1.2.1, and 1.2.2\n"
-echo "4. Recolor - Panel Version: 1.2.0, 1.2.1, and 1.2.2\n"
-echo "5. Twilight - Panel Version: 1.1.3, 1.2.0, 1.2.1, and 1.2.2\n"
-echo "6. Cancel\n"
-echo "\n\nScreenshots of the themes can be found at: https://github.com/OreoKitten/PteroThemes\n"
+echo "1. Dracula - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
+echo "2. Dark-N-Purple - Panel Version: 1.2.2"
+echo "3. Enola - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
+echo "4. Recolor - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
+echo "5. Twilight - Panel Version: 1.1.3, 1.2.0, 1.2.1, and 1.2.2"
+echo "6. Cancel"
+echo ""
+echo ""
+echo "Screenshots of the themes can be found at: https://github.com/OreoKitten/PteroThemes"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
