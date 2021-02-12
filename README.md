@@ -2,8 +2,8 @@
 **ALL THESE COMMANDS MUST BE RAN BY ROOT!**  
 All credits go to Oreo, https://github.com/OreoKitten/PteroThemes.
 I Just made install scripts for all of the themes because its tricky to install them.  
-Will probably make an uninstall script soon aswell!
-----
+
+## Selector type of install
 `bash <(https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/install.sh)`
 If you want to run the command just to install 1 theme without a selector, look below.
 
