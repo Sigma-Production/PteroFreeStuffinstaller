@@ -711,9 +711,3 @@ textarea.form-control, input.form-control {
 .select2-results__options::-webkit-scrollbar, .select2-results::-webkit-scrollbar {
 	display: none !important;
 }
-
-/* Fixes eula overflow */
-
-.ekHIsr {
-	overflow: hidden !important;
-}
