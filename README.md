@@ -4,7 +4,7 @@ All credits go to Oreo, https://github.com/OreoKitten/PteroThemes.
 I Just made install scripts for all of the themes because its tricky to install them.  
 
 ## Selector type of install
-`bash <(https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/install.sh)`
+`bash <(curl https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/install.sh)`
 If you want to run the command just to install 1 theme without a selector, look below.
 
 ## Dracula - Panel Version: 1.2.0, 1.2.1, and 1.2.2
