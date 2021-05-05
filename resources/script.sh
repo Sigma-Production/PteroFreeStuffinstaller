@@ -41,7 +41,7 @@ fi
 if [ $choice == "7" ]
     then
     echo "Installing Minecraft Theme..."
-    bash <(curl -sSL LinkieHier)
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mcTheme/install.sh)
 
 
 fi
