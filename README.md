@@ -9,7 +9,7 @@ I Just made install scripts for all of the themes because its tricky to install 
 If you want to run the command just to install 1 theme without a selector, look below.
 
 ## Mcpaste - Panel Version: Latest
-`bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/ptero-1.0-theme-install/main/resources/dark-n-purple/install.sh)`
+`bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/MCpastepteroinstaller/main/resources/McPaste/install.sh)`
 
 
 ## Uninstall
