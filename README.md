@@ -11,8 +11,6 @@ A simple menu where u can choose install Mcpaste Moreserver info or remove MoreS
 
 `bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)`
 
-If you want without selector look below
-
 ## Issues?
 If you have any issues, open an issue on this github.
 
