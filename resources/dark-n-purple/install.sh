@@ -2,8 +2,6 @@ php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts/components/server
 wget https://raw.githubusercontent.com/finnie2006/ptero-1.0-theme-install/main/resources/dark-n-purple/McPaste.tsx
 cd ../..
-php artisan view:clear
-php artisan cache:clear
 clear
 echo "User panel theme has been added."
 echo "Installing admin theme..."
