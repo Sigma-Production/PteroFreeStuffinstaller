@@ -5,7 +5,6 @@ echo "4. MoreServerInfo Uninstall
 echo "6. Cancel"
 echo ""
 echo ""
-echo "Screenshots of the themes can be found at: https://github.com/OreoKitten/PteroThemes"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
@@ -26,3 +25,4 @@ if [ $choice == "4" ]
     then
     echo "Removing MoreServerInfo..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall2.sh)
+fi
