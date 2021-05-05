@@ -1,21 +1,12 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts/components/server
+rm -rf ServerConsole.tsx
 wget https://raw.githubusercontent.com/finnie2006/ptero-1.0-theme-install/main/resources/dark-n-purple/McPaste.tsx
-cd ../..
+wget https://raw.githubusercontent.com/finnie2006/MCpastepteroinstaller/main/resources/McPaste/ServerConsole.tsx
 clear
-echo "User panel theme has been added."
-echo "Installing admin theme..."
-cd /var/www/pterodactyl/resources/views/layouts/
-rm -rf admin.blade.php
-wget https://raw.githubusercontent.com/DeveloperNeon/ptero-1.0-theme-install/main/resources/dark-n-purple/admin.blade.php
-npm install yarn -g
+npm i -g yarn
+cd /var/www/pterodactyl
 yarn install
-yarn add @emotion/react
-rm -rf /var/www/pterodactyl/resources/scripts/hoc/requireServerPermission.tsx
-yarn build:production
-cd ../../..
-php /var/www/pterodactyl/artisan up
-php /var/www/pterodactyl/artisan view:clear
-php /var/www/pterodactyl/artisan cache:clear
+yarn run build:production
 clear
 echo "PasteBin Installed"
