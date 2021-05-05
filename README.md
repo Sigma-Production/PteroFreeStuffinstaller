@@ -4,6 +4,11 @@ credits go to HM4Development And Harrydev
 , https://github.com/HM4Development/mcpaste-addon.
 
   https://pterodactylmarket.com/resource/168
+  
+  
+##Installer
+A simple menu where u can choose install Mcpaste Moreserver info Or remove MoreServerInfo Or McPaste
+bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)
 
 ## Mcpaste - Panel Version: Latest
 `bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/McPaste/install.sh)`
