@@ -39,14 +39,14 @@ if [ $choice == "6" ]
     echo "Installing Dark N Green Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNGreen/install.sh)
 fi
-if [ $choice == "7" ]
+if [ $choice == "8" ]
     then
     echo "Installing Minecraft Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mcTheme/install.sh)
 
 
 fi
-if [ $choice == "8" ]
+if [ $choice == "7" ]
     then
     echo "Installing Minecraft Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNPurp/install.sh)
