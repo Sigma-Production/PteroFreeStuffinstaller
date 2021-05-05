@@ -3,7 +3,6 @@
 credits go to HM4Development And Harrydev
 , https://github.com/HM4Development/mcpaste-addon.
 
-
   https://pterodactylmarket.com/resource/168
 
 ## Mcpaste - Panel Version: Latest
