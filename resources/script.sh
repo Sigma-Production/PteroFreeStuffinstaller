@@ -2,8 +2,8 @@ echo "1. McPaste Install"
 echo "2. MoreServerInfo Install"
 echo "3. Remove Mcpaste"
 echo "4. Remove MoreServerInfo"
-echo "5. Cancel"
-echo ""
+echo "5. Install Dark N Red Theme"
+echo "6. Cancel"
 echo ""
 echo ""
 read -p "Please enter a number: " choice
@@ -26,6 +26,12 @@ if [ $choice == "4" ]
     then
     echo "Removing MoreServerInfo..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall2.sh)
+fi
+if [ $choice == "4" ]
+    then
+    echo "Installing Dark N Red Theme..."
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/install.sh)
+
 
 fi
 if [ $choice == "5" ]
