@@ -1,7 +1,7 @@
-echo "1. Mcpaste Install - Panel Version: 1.x.x,
-echo "2. MoreServerInfo - Panel Version: 1.x.x"
-echo "3. McPaste Uninstall
-echo "4. MoreServerInfo Uninstall
+echo "1. Mcpaste Install - Panel Version: 1.x.x"""
+echo "2. MoreServerInfo - Panel Version: 1.x.x"""
+echo "3. McPaste Uninstall""
+echo "4. MoreServerInfo Uninstall"
 echo "6. Cancel"
 echo ""
 echo ""
