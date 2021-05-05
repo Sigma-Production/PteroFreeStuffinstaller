@@ -10,6 +10,7 @@ import isEqual from 'react-fast-compare';
 import PowerControls from '@/components/server/PowerControls';
 import { EulaModalFeature } from '@feature/index';
 import ErrorBoundary from '@/components/elements/ErrorBoundary';
+import McPaste from "@/components/server/McPaste";
 
 export type PowerAction = 'start' | 'stop' | 'restart' | 'kill';
 
