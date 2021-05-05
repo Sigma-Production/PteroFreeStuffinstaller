@@ -7,7 +7,6 @@ echo "6. Uninstall"
 echo "7. Cancel"
 echo ""
 echo ""
-echo "Screenshots of the themes can be found at: https://github.com/OreoKitten/PteroThemes"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
