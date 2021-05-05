@@ -7,9 +7,10 @@ credits go to HM4Development And Harrydev
   
   
 ## Installer
-A simple menu where u can choose install Mcpaste Moreserver info Or remove MoreServerInfo Or McPaste
+A simple menu where u can choose install Mcpaste Moreserver info or remove MoreServerInfo or McPaste
 
 `bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)`
+
 If you want without selector look below
 
 ## McPaste - Panel Version: Latest
