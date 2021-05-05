@@ -4,8 +4,9 @@ echo "3. Remove Mcpaste"
 echo "4. Remove MoreServerInfo"
 echo "5. Install Dark N Red Theme"
 echo "6. Install Dark N Green Theme"
-echo "7. Install Minecraft Theme"
-echo "8 Close"
+echo "7. Install Dark N Purple Theme"
+echo "8. Install Minecraft Theme"
+echo "9 Close"
 echo ""
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
@@ -46,6 +47,13 @@ if [ $choice == "7" ]
 
 fi
 if [ $choice == "8" ]
+    then
+    echo "Installing Minecraft Theme..."
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNPurp/install.sh)
+
+
+fi
+if [ $choice == "9" ]
     then
     echo "Canceling..."
     exit 0
