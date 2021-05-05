@@ -15,28 +15,19 @@ if [ $choice == "1" ]
 fi
 if [ $choice == "2" ]
     then
-    echo "Installing Dark-N-Purple..."
-    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/dark-n-purple/install.sh)
+    echo "Installing MoreServerInfo..."
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/MoreServerInfo/install.sh)
 fi
 if [ $choice == "3" ]
     then
-    echo "Installing enola..."
-    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/enola/install.sh)
+    echo "Removing McPaste..."
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall.sh)
 fi
 if [ $choice == "4" ]
     then
-    echo "Installing Recolor..."
-    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/recolor/install.sh)
-fi
-if [ $choice == "5" ]
-    then
-    echo "Installing Twilight..."
-    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/twilight/install.sh)
-fi
-if [ $choice == "6" ]
-    then
-    echo "Uninstalling..."
-    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/uninstall/uninstall.sh)
+    echo "Removing MoreServerInfo..."
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall2.sh)
+
 fi
 if [ $choice == "7" ]
     then
