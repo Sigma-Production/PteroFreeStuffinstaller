@@ -11,9 +11,6 @@ credits go to HM4Development And Harrydev
 ## MoreServerInfo - Panel version: 1.x.x
 `bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/MoreServerInfo/install.sh)`
 
-## Menu uninstall option included
-bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)
-
 ## Issues?
 If you have any issues, open an issue on this github.
 
