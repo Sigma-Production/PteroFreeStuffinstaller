@@ -1,4 +1,4 @@
-echo "1. Dracula - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
+echo "1. McPaste Install"
 echo "2. Dark-N-Purple - Panel Version: 1.2.2"
 echo "3. Enola - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
 echo "4. Recolor - Panel Version: 1.2.0, 1.2.1, and 1.2.2"
@@ -11,7 +11,7 @@ read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     echo "Installing Dracula..."
-    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/dracula/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/McPaste/install.sh)
 fi
 if [ $choice == "2" ]
     then
