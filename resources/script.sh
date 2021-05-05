@@ -27,7 +27,6 @@ if [ $choice == "4" ]
     echo "Removing MoreServerInfo..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall2.sh)
 
-
 fi
 if [ $choice == "6" ]
     then
