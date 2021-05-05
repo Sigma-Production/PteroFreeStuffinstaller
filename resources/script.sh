@@ -3,7 +3,7 @@ echo "2. MoreServerInfo Install"
 echo "3. Remove Mcpaste"
 echo "4. Remove MoreServerInfo"
 echo "5. Install Dark N Red Theme"
-echo "6. Install Dark n Green Theme"
+echo "6. Install Dark N Green Theme"
 echo "7. Cancel"
 echo ""
 echo ""
@@ -35,7 +35,7 @@ if [ $choice == "5" ]
 
 
 fi
-if [ $choice == "5" ]
+if [ $choice == "6" ]
     then
     echo "Installing Dark N Green Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNGreen/install.sh)
