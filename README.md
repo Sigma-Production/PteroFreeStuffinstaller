@@ -17,3 +17,6 @@ credits go to HM4Development And Harrydev
 
 ## Issues?
 If you have any issues, open an issue on this github.
+
+## I want my addon or theme in here
+That is possible make an issue when u get approved u need to send ur addon or theme and i will added and u will get listed at Credits
