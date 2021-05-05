@@ -1,14 +1,11 @@
 # Pterodactyl Free Stuff installer
-**ALL THESE COMMANDS MUST BE RAN BY ROOT!**  
-credits go to HM4Development And Harrydev
-, https://github.com/HM4Development/mcpaste-addon.
+Free pterodactyl Themes & Addons for pterodactyl panel V1.x.x
 
-  https://pterodactylmarket.com/resource/168
   
   
 ## Install
 A simple menu where u can choose install Mcpaste Moreserver info or remove MoreServerInfo or McPaste
-
+**Use root when running this! Else the script will fail!**  
 `bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)`
 
 ## Issues?
