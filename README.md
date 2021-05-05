@@ -24,6 +24,7 @@ If you have any issues, open an issue on this github.
 
 ## I want my addon or theme in here
 That is possible make an issue when u get approved u need to send ur addon or theme and i will added and u will get listed at Credits
+
 Or if u have request what i should add make a issue
 
 V1.0
