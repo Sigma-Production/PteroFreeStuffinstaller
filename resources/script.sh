@@ -27,14 +27,14 @@ if [ $choice == "4" ]
     echo "Removing MoreServerInfo..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall2.sh)
 fi
-if [ $choice == "4" ]
+if [ $choice == "5" ]
     then
     echo "Installing Dark N Red Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/install.sh)
 
 
 fi
-if [ $choice == "5" ]
+if [ $choice == "6" ]
     then
     echo "Canceling..."
     exit 0
