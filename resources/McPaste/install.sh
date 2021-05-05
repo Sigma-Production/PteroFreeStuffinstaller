@@ -8,5 +8,6 @@ npm i -g yarn
 cd /var/www/pterodactyl
 yarn install
 yarn run build:production
+php /var/www/pterodactyl/artisan up
 clear
 echo "PasteBin Installed"
