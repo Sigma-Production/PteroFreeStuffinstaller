@@ -11,7 +11,7 @@ A simple menu where u can choose install Mcpaste Moreserver info Or remove MoreS
 
 `bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)`
 
-## Mcpaste - Panel Version: Latest
+## McPaste - Panel Version: Latest
 `bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/McPaste/install.sh)`
 
 ## MoreServerInfo - Panel version: 1.x.x
