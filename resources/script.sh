@@ -3,7 +3,7 @@ echo "2. MoreServerInfo Install"
 echo "3. Remove Mcpaste"
 echo "4. Remove MoreServerInfo"
 echo "5. Install Dark N Color Theme (Yellow, Purple, Green or Red)"
-echo "6. Install Minecraft Theme (Unfinished)"
+echo "6. Install Minecraft Theme"
 echo "7. Close / Cancel"
 echo ""
 read -p "Please enter a number: " choice
