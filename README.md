@@ -1,6 +1,8 @@
 # Pterodactyl Free Stuff installer
 Free pterodactyl Themes & Addons for pterodactyl panel V1.x.x
 
+Credits: Oreokitten, Notil 
+
   
   
 ## Install
