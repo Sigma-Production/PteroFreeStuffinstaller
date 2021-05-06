@@ -1,7 +1,7 @@
 # Pterodactyl Free Stuff installer
 Free pterodactyl Themes & Addons for pterodactyl panel V1.x.x
 
-Credits: Harrydev and 
+Credits: Harrydev and HM4 Development
 
   
   
