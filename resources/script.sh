@@ -25,13 +25,11 @@ if [ $choice == "4" ]
     then
     echo "Removing MoreServerInfo..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall2.sh)
-
 fi
 if [ $choice == "5" ]
     then
     echo "Installing Minecraft Theme..."
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mcTheme/install.sh)
-
 fi
 if [ $choice == "6" ]
     then
