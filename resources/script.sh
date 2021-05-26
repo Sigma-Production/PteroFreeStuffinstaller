@@ -4,7 +4,8 @@ echo "3. Remove Mcpaste"
 echo "4. Remove MoreServerInfo"
 echo "5. Install Dark N Color Theme (Yellow, Purple, Green or Red)"
 echo "6. Install Minecraft Theme"
-echo "7. Close / Cancel"
+echo "7. Install Animated Background Theme"
+echo "8. Close / Cancel"
 echo ""
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
@@ -37,6 +38,11 @@ if [ $choice == "6" ]
     bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mcTheme/install.sh)
 fi
 if [ $choice == "7" ]
+    then
+    echo "Installing Animated Background Theme..."
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/install.sh)
+fi
+if [ $choice == "8" ]
     then
     echo "Canceling..."
     exit 0
