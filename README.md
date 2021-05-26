@@ -18,7 +18,5 @@ That is possible make an issue when u get approved u need to send ur addon or th
 
 Or if u have request what i should add make a issue
 
-V1.6
--Removed Dark N themes
 
 Made By Finniedj And Twixgamer
