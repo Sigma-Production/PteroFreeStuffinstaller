@@ -1,0 +1,1288 @@
+:root {
+  --main-bg-color: #282a36 !important;
+  --secondary-bg-color: #242631 !important;
+  --secondary-bg-color-alt: #20222c !important;
+  --accent-color: #cfe019 !important;
+  --accent-secondary-color: #cfe019 !important;
+  --text-color: #fafafa !important;
+  --border-radius: 4px !important;
+  --accent-light: #87F080 !important;
+}
+
+/* Changes Background */
+
+body {
+        background: radial-gradient(circle, #24246e, #06051f);
+        overflow: hidden;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+  z-index: 100;
+}
+body:active .mdv div,
+  body:active .mdv div::before,
+  body:active .mdv div::after {
+        padding: 40px;
+}
+
+.mdv div,
+.mdv div::before,
+.mdv div::after {
+  z-index: -100;
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        transform-origin: top;
+        transition: all 5s linear 0s;
+}
+
+.purple {
+        animation: purple linear 30s alternate infinite;
+        border: 2px solid #241379;
+        border-radius: 100%;
+        width: 48px;
+        height: 48px;
+        transform: translate3d(28vw, 59vh, 0);
+}
+
+.purple::before {
+        animation: purple-pseudo linear 15s alternate infinite;
+        background: #241379;
+        border: 2px solid #241379;
+        width: 21px;
+        height: 20px;
+        transform: translate3d(22vw, 6vh, 0) rotate(106deg);
+}
+
+.purple::after {
+        animation: purple-pseudo linear 20s alternate infinite;
+        border: 2px solid #241379;
+        width: 18px;
+        height: 9px;
+        transform: translate3d(-9vw, -40vh, 0) rotate(79deg);
+}
+
+@keyframes purple {
+        50% {
+                transform: translate3d(57vw, 94vh, 0);
+        }
+
+        100% {
+                transform: translate3d(34vw, 41vh, 0);
+        }
+}
+
+@keyframes purple-pseudo {
+        33% {
+                transform: translate3d(-49vw, -38vh, 0) rotate(359deg);
+        }
+
+        100% {
+                transform: translate3d(33vw, -25vh, 0) rotate(72deg);
+        }
+}
+
+.medium-blue {
+        animation: medium-blue linear 30s alternate infinite;
+        border: 2px solid #2185bf;
+        border-radius: 100%;
+        width: 28px;
+        height: 28px;
+        transform: translate3d(65vw, 16vh, 0);
+}
+
+.medium-blue::before {
+        animation: medium-blue-pseudo linear 15s alternate infinite;
+        background: #2185bf;
+        border: 2px solid #2185bf;
+        width: 8px;
+        height: 14px;
+        transform: translate3d(28vw, 36vh, 0) rotate(342deg);
+}
+
+.medium-blue::after {
+        animation: medium-blue-pseudo linear 20s alternate infinite;
+        border: 2px solid #2185bf;
+        width: 44px;
+        height: 49px;
+        transform: translate3d(31vw, 69vh, 0) rotate(348deg);
+}
+
+@keyframes medium-blue {
+        50% {
+                transform: translate3d(61vw, 78vh, 0);
+        }
+
+        100% {
+                transform: translate3d(5vw, 3vh, 0);
+        }
+}
+
+@keyframes medium-blue-pseudo {
+        33% {
+                transform: translate3d(-31vw, -31vh, 0) rotate(233deg);
+        }
+
+        100% {
+                transform: translate3d(60vw, 76vh, 0) rotate(125deg);
+        }
+}
+
+.light-blue {
+        animation: light-blue linear 30s alternate infinite;
+        border: 2px solid #1fbce1;
+        border-radius: 100%;
+        width: 48px;
+        height: 48px;
+        transform: translate3d(5vw, 44vh, 0);
+}
+
+.light-blue::before {
+        animation: light-blue-pseudo linear 15s alternate infinite;
+        background: #1fbce1;
+        border: 2px solid #1fbce1;
+        width: 25px;
+        height: 36px;
+        transform: translate3d(46vw, -36vh, 0) rotate(132deg);
+}
+
+.light-blue::after {
+        animation: light-blue-pseudo linear 20s alternate infinite;
+        border: 2px solid #1fbce1;
+        width: 11px;
+        height: 43px;
+        transform: translate3d(90vw, 3vh, 0) rotate(72deg);
+}
+
+@keyframes light-blue {
+        50% {
+                transform: translate3d(56vw, 65vh, 0);
+        }
+
+        100% {
+                transform: translate3d(19vw, 53vh, 0);
+        }
+}
+
+@keyframes light-blue-pseudo {
+        33% {
+                transform: translate3d(-55vw, -12vh, 0) rotate(358deg);
+        }
+
+        100% {
+                transform: translate3d(-4vw, -10vh, 0) rotate(256deg);
+        }
+}
+
+.red {
+        animation: red linear 30s alternate infinite;
+        border: 2px solid #b62f56;
+        border-radius: 100%;
+        width: 5px;
+        height: 5px;
+        transform: translate3d(100vw, 64vh, 0);
+}
+
+.red::before {
+        animation: red-pseudo linear 15s alternate infinite;
+        background: #b62f56;
+        border: 2px solid #b62f56;
+        width: 47px;
+        height: 29px;
+        transform: translate3d(-74vw, 1vh, 0) rotate(29deg);
+}
+
+.red::after {
+        animation: red-pseudo linear 20s alternate infinite;
+        border: 2px solid #b62f56;
+        width: 10px;
+        height: 11px;
+        transform: translate3d(-47vw, -15vh, 0) rotate(85deg);
+}
+
+@keyframes red {
+        50% {
+                transform: translate3d(32vw, 30vh, 0);
+        }
+
+        100% {
+                transform: translate3d(66vw, 73vh, 0);
+        }
+}
+
+@keyframes red-pseudo {
+        33% {
+                transform: translate3d(62vw, -21vh, 0) rotate(251deg);
+        }
+
+        100% {
+                transform: translate3d(-7vw, -25vh, 0) rotate(24deg);
+        }
+}
+
+.orange {
+        animation: orange linear 30s alternate infinite;
+        border: 2px solid #d5764c;
+        border-radius: 100%;
+        width: 17px;
+        height: 17px;
+        transform: translate3d(93vw, 43vh, 0);
+}
+
+.orange::before {
+        animation: orange-pseudo linear 15s alternate infinite;
+        background: #d5764c;
+        border: 2px solid #d5764c;
+        width: 30px;
+        height: 29px;
+        transform: translate3d(-64vw, 49vh, 0) rotate(143deg);
+}
+
+.orange::after {
+        animation: orange-pseudo linear 20s alternate infinite;
+        border: 2px solid #d5764c;
+        width: 49px;
+        height: 6px;
+        transform: translate3d(3vw, 15vh, 0) rotate(84deg);
+}
+
+@keyframes orange {
+        50% {
+                transform: translate3d(61vw, 87vh, 0);
+        }
+
+        100% {
+                transform: translate3d(2vw, 24vh, 0);
+        }
+}
+
+@keyframes orange-pseudo {
+        33% {
+                transform: translate3d(-38vw, -20vh, 0) rotate(344deg);
+        }
+
+        100% {
+                transform: translate3d(32vw, 20vh, 0) rotate(126deg);
+        }
+}
+
+.yellow {
+        animation: yellow linear 30s alternate infinite;
+        border: 2px solid #ffd53e;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        transform: translate3d(65vw, 27vh, 0);
+}
+
+.yellow::before {
+        animation: yellow-pseudo linear 15s alternate infinite;
+        background: #ffd53e;
+        border: 2px solid #ffd53e;
+        width: 18px;
+        height: 44px;
+        transform: translate3d(-3vw, 30vh, 0) rotate(70deg);
+}
+
+.yellow::after {
+        animation: yellow-pseudo linear 20s alternate infinite;
+        border: 2px solid #ffd53e;
+        width: 33px;
+        height: 36px;
+        transform: translate3d(-4vw, 62vh, 0) rotate(206deg);
+}
+
+@keyframes yellow {
+        50% {
+                transform: translate3d(81vw, 86vh, 0);
+        }
+
+        100% {
+                transform: translate3d(88vw, 40vh, 0);
+        }
+}
+
+@keyframes yellow-pseudo {
+        33% {
+                transform: translate3d(7vw, 12vh, 0) rotate(322deg);
+        }
+
+        100% {
+                transform: translate3d(-23vw, -26vh, 0) rotate(102deg);
+        }
+}
+
+.cyan {
+        animation: cyan linear 30s alternate infinite;
+        border: 2px solid #78ffba;
+        border-radius: 100%;
+        width: 13px;
+        height: 13px;
+        transform: translate3d(17vw, 61vh, 0);
+}
+
+.cyan::before {
+        animation: cyan-pseudo linear 15s alternate infinite;
+        background: #78ffba;
+        border: 2px solid #78ffba;
+        width: 19px;
+        height: 26px;
+        transform: translate3d(72vw, -30vh, 0) rotate(135deg);
+}
+
+.cyan::after {
+        animation: cyan-pseudo linear 20s alternate infinite;
+        border: 2px solid #78ffba;
+        width: 5px;
+        height: 8px;
+        transform: translate3d(-17vw, 16vh, 0) rotate(230deg);
+}
+
+@keyframes cyan {
+        50% {
+                transform: translate3d(26vw, 89vh, 0);
+        }
+
+        100% {
+                transform: translate3d(35vw, 36vh, 0);
+        }
+}
+
+@keyframes cyan-pseudo {
+        33% {
+                transform: translate3d(59vw, -37vh, 0) rotate(109deg);
+        }
+
+        100% {
+                transform: translate3d(57vw, 45vh, 0) rotate(103deg);
+        }
+}
+
+.light-green {
+        animation: light-green linear 30s alternate infinite;
+        border: 2px solid #98fd85;
+        border-radius: 100%;
+        width: 31px;
+        height: 31px;
+        transform: translate3d(47vw, 38vh, 0);
+}
+
+.light-green::before {
+        animation: light-green-pseudo linear 15s alternate infinite;
+        background: #98fd85;
+        border: 2px solid #98fd85;
+        width: 13px;
+        height: 29px;
+        transform: translate3d(0vw, 9vh, 0) rotate(268deg);
+}
+
+.light-green::after {
+        animation: light-green-pseudo linear 20s alternate infinite;
+        border: 2px solid #98fd85;
+        width: 26px;
+        height: 32px;
+        transform: translate3d(30vw, -26vh, 0) rotate(332deg);
+}
+
+@keyframes light-green {
+        50% {
+                transform: translate3d(81vw, 25vh, 0);
+        }
+
+        100% {
+                transform: translate3d(100vw, 91vh, 0);
+        }
+}
+
+@keyframes light-green-pseudo {
+        33% {
+                transform: translate3d(-49vw, 74vh, 0) rotate(210deg);
+        }
+
+        100% {
+                transform: translate3d(-84vw, -68vh, 0) rotate(257deg);
+        }
+}
+
+.lime {
+        animation: lime linear 30s alternate infinite;
+        border: 2px solid #befb46;
+        border-radius: 100%;
+        width: 13px;
+        height: 13px;
+        transform: translate3d(70vw, 92vh, 0);
+}
+
+.lime::before {
+        animation: lime-pseudo linear 15s alternate infinite;
+        background: #befb46;
+        border: 2px solid #befb46;
+        width: 9px;
+        height: 31px;
+        transform: translate3d(-13vw, -23vh, 0) rotate(81deg);
+}
+
+.lime::after {
+        animation: lime-pseudo linear 20s alternate infinite;
+        border: 2px solid #befb46;
+        width: 18px;
+        height: 48px;
+        transform: translate3d(20vw, -25vh, 0) rotate(334deg);
+}
+
+@keyframes lime {
+        50% {
+                transform: translate3d(26vw, 74vh, 0);
+        }
+
+        100% {
+                transform: translate3d(84vw, 65vh, 0);
+        }
+}
+
+@keyframes lime-pseudo {
+        33% {
+                transform: translate3d(32vw, -1vh, 0) rotate(187deg);
+        }
+
+        100% {
+                transform: translate3d(-31vw, 23vh, 0) rotate(200deg);
+        }
+}
+
+.magenta {
+        animation: magenta linear 30s alternate infinite;
+        border: 2px solid #6c046c;
+        border-radius: 100%;
+        width: 27px;
+        height: 27px;
+        transform: translate3d(37vw, 57vh, 0);
+}
+
+.magenta::before {
+        animation: magenta-pseudo linear 15s alternate infinite;
+        background: #6c046c;
+        border: 2px solid #6c046c;
+        width: 30px;
+        height: 20px;
+        transform: translate3d(46vw, 1vh, 0) rotate(249deg);
+}
+
+.magenta::after {
+        animation: magenta-pseudo linear 20s alternate infinite;
+        border: 2px solid #6c046c;
+        width: 17px;
+        height: 6px;
+        transform: translate3d(24vw, -24vh, 0) rotate(110deg);
+}
+
+@keyframes magenta {
+        50% {
+                transform: translate3d(42vw, 50vh, 0);
+        }
+
+        100% {
+                transform: translate3d(65vw, 23vh, 0);
+        }
+}
+
+@keyframes magenta-pseudo {
+        33% {
+                transform: translate3d(53vw, -42vh, 0) rotate(12deg);
+        }
+
+        100% {
+                transform: translate3d(-33vw, -18vh, 0) rotate(149deg);
+        }
+}
+
+.lightish-red {
+        animation: lightish-red linear 30s alternate infinite;
+        border: 2px solid #f04c81;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        transform: translate3d(38vw, 93vh, 0);
+}
+
+.lightish-red::before {
+        animation: lightish-red-pseudo linear 15s alternate infinite;
+        background: #f04c81;
+        border: 2px solid #f04c81;
+        width: 26px;
+        height: 42px;
+        transform: translate3d(51vw, -28vh, 0) rotate(31deg);
+}
+
+.lightish-red::after {
+        animation: lightish-red-pseudo linear 20s alternate infinite;
+        border: 2px solid #f04c81;
+        width: 16px;
+        height: 8px;
+        transform: translate3d(4vw, -30vh, 0) rotate(146deg);
+}
+
+@keyframes lightish-red {
+        50% {
+                transform: translate3d(8vw, 71vh, 0);
+        }
+
+        100% {
+                transform: translate3d(19vw, 20vh, 0);
+        }
+}
+
+@keyframes lightish-red-pseudo {
+        33% {
+                transform: translate3d(37vw, 0vh, 0) rotate(29deg);
+        }
+
+        100% {
+                transform: translate3d(8vw, -12vh, 0) rotate(1deg);
+        }
+}
+
+.pink {
+        animation: pink linear 30s alternate infinite;
+        border: 2px solid #ff4293;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        transform: translate3d(97vw, 34vh, 0);
+}
+
+.pink::before {
+        animation: pink-pseudo linear 15s alternate infinite;
+        background: #ff4293;
+        border: 2px solid #ff4293;
+        width: 48px;
+        height: 36px;
+        transform: translate3d(-17vw, -25vh, 0) rotate(98deg);
+}
+
+.pink::after {
+        animation: pink-pseudo linear 20s alternate infinite;
+        border: 2px solid #ff4293;
+        width: 18px;
+        height: 8px;
+        transform: translate3d(-2vw, -31vh, 0) rotate(217deg);
+}
+
+@keyframes pink {
+        50% {
+                transform: translate3d(90vw, 44vh, 0);
+        }
+
+        100% {
+                transform: translate3d(78vw, 50vh, 0);
+        }
+}
+
+@keyframes pink-pseudo {
+        33% {
+                transform: translate3d(-86vw, 48vh, 0) rotate(124deg);
+        }
+
+        100% {
+                transform: translate3d(11vw, 15vh, 0) rotate(231deg);
+        }
+}
+
+
+/* Changes Header Color */
+
+.ebtnLL,
+.cWFcHc,
+.iTxXDX,
+.JZicT,
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side,
+.skin-blue .main-header .navbar,
+.skin-blue .main-header .logo,
+.main-footer {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: transparent !important;
+        box-shadow: none !important;
+}
+
+
+/* Changes selected tab color */
+
+.fmPgAW>a:active,
+.fmPgAW>.navigation-link:active,
+.fmPgAW>a:hover,
+.fmPgAW>.navigation-link:hover,
+.fmPgAW>a.active,
+.fmPgAW>.navigation-link.active,
+.cWFcHc>div>a:active,
+.cWFcHc>div>div:active,
+.cWFcHc>div>a.active,
+.cWFcHc>div>div.active,
+.jMDToC>a:active,
+.jMDToC>.navigation-link:active,
+.jMDToC>a:hover,
+.jMDToC>.navigation-link:hover,
+.jMDToC>a.active,
+.jMDToC>.navigation-link.active,
+.JZicT>div>a:active,
+.JZicT>div>div:active,
+.JZicT>div>a.active,
+.JZicT>div>div.active {
+        box-shadow: var(--accent-color) 0px -2px inset !important;
+        background-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes Text Color */
+
+.fNmetC,
+.hcJQtJ,
+.ToRTP,
+.dPhkRJ,
+.cKOMAz,
+.jSyjnD,
+.jywpgX,
+.eFKDEh,
+.dUzAFF,
+.cbFifO,
+.farUaV,
+.dMZZHB,
+.lgYuLu,
+.gSUxYg,
+.cdBzyv,
+.gxlLzB,
+.jexamK,
+.eWxPIu,
+.eWxPIu:hover,
+.jXGwrM,
+.mIIYh,
+.iambCQ,
+.iZqkRd,
+.chAlWS,
+.iTwxpv,
+.skin-blue .main-header .logo,
+.jVPRyV,
+.cvDOmk,
+.dRhlIo .icon,
+.hmodKy,
+.beRAKh {
+        color: var(--text-color) !important;
+}
+
+.gqmhN {
+        display: none !important;
+}
+
+/* Changes disabled switch */
+
+.gdhLjd>label,
+.cDmYBr>label {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes enabled switch */
+
+.gdhLjd>input[type="checkbox"]:checked+label,
+.cDmYBr>input[type="checkbox"]:checked+label {
+        background-color: var(--accent-color) !important;
+        border-color: var(--accent-color) !important;
+}
+
+
+/* Changes server list color */
+
+.liBonM,
+.bOIdGn,
+.jkiDvQ,
+.iYhzbi,
+.jqQFoq,
+.bEKRkc,
+.dRhlIo {
+        background-color: var(--secondary-bg-color) !important;
+        border-radius: var(--border-radius) !important;
+        border-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes border when hover */
+
+.liBonM:hover,
+.kHuGmn:hover,
+.dRhlIo:hover,
+.bEKRkc:hover {
+        border-color: var(--accent-color) !important;
+}
+
+
+/* Changes status bar position and size */
+
+.jkiDvQ .status-bar,
+.bvinzM .status-bar,
+.iYhzbi .status-bar,
+.liBonM .status-bar,
+.jqQFoq .status-bar,
+.bEKRkc .status-bar,
+.dRhlIo .status-bar {
+        height: 100vw !important;
+        right: -.25vw !important;
+}
+
+
+/* Changes Installing Status, and other bubble text */
+
+.hNrKxe,
+.dMZZHB,
+.dHRxAp,
+.epSLdr,
+.bsrsDD,
+.ffSVrP,
+.fZqvbJ,
+.fLfaAY,
+.bsSkeI,
+.jIIIrT,
+.EwfIk,
+.izAmwE,
+code,
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-search--inline .select2-search__field:focus,
+.select2-container--default .select2-search--inline .select2-search__field {
+        border-radius: var(--border-radius);
+        background-color: var(--accent-color) !important;
+        border-color: var(--accent-color) !important;
+        color: var(--text-color) !important;
+}
+
+
+/* Changes server icons */
+
+.kHuGmn .icon,
+.jkiDvQ .icon,
+.bvinzM .icon,
+.iYhzbi .icon,
+.liBonM .icon,
+.jqQFoq .icon,
+.dRhlIo .icon {
+        background-color: var(--accent-color) !important;
+}
+
+
+/* Changes account settings area */
+
+.hfBvRz,
+.fenved {
+        border-radius: var(--border-radius);
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--accent-color) !important;
+}
+
+
+/* Changes input areas */
+
+.eDhiE:not([type="checkbox"]):not([type="radio"]),
+.lepTyw:not([type="checkbox"]):not([type="radio"]),
+.eDhiE[type="checkbox"],
+.eDhiE[type="radio"],
+.hDlyZJ:not(.disabled):hover,
+.farUaV,
+.iZMsvi,
+.iYSUfg,
+.cKwXAB,
+.ixeRNi:hover,
+.jVkAsT:not([type="checkbox"]):not([type="radio"]),
+.kmvYjP:not([type="checkbox"]):not([type="radio"]),
+.hsUiOF,
+.jrraLb,
+.icxFlO:hover,
+.gYNKkb,
+.elUIig:hover,
+.ekbHAG,
+.btn-primary,
+.btn-warning,
+.btn-success,
+.btn-danger,
+.alert-danger,
+.input-group .input-group-addon,
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple,
+.content-header>.breadcrumb,
+body > div > div > section.content > div:nth-child(3) > div.col-sm-8 > div > div:nth-child(2) > div > div.box-body.table-responsive > pre {
+        border-color: var(--accent-secondary-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+
+/* Changes header-upper */
+
+.kwjWaB,
+.grusjm,
+.cswOgL,
+.cnbtLx,
+.bPeJFv,
+.bWXUsX,
+.nav-tabs-custom.nav-tabs-floating>.nav-tabs,
+.box-header.with-border,
+.bg-gray {
+        border-color: var(--secondary-bg-color-alt) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+    margin-bottom: .25vw !important;
+        margin-top: .25vw !important;
+        transform: scale(.96);
+}
+
+
+/* Changes header-lower,  */
+
+.ifNwiE,
+.LdCMD,
+.fIhPZJ,
+.cFegvH,
+.box-body {
+        border-color: transparent !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+        margin-top: .25vw !important;
+}
+
+
+/* Hides background of radial areas */
+
+.RkKIC,
+.cRDvbO,
+.dmLxWB,
+.gLxIAb,
+.gHwjbw,
+.WUPIv,
+.dQCdoR,
+.vtEGy,
+.kGXByO,
+.nav-tabs-custom,
+.box,
+.box-footer,
+.small-box>.small-box-footer {
+        background-color: transparent !important;
+        border-top: none !important;
+        box-shadow: none !important;
+}
+
+
+/* Changes console */
+
+.LbmBV,
+.hahdAC {
+        border-radius: var(--border-radius) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        margin-bottom: .75vw !important;
+}
+
+
+/* Changes console color */
+
+.xterm .xterm-screen,
+.xterm .xterm-viewport {
+        background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Changes scroll bar */
+
+::-webkit-scrollbar-thumb:hover {
+        -webkit-box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 4px var(--accent-color) !important;
+}
+
+::-webkit-scrollbar-thumb {
+        border-right-width: 4px !important;
+        border-left-width: 4px !important;
+        -webkit-border-radius: 9px 4px !important;
+        -webkit-box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 4px var(--accent-color) !important;
+}
+
+::-webkit-scrollbar {
+        background: var(--main-bg-color) !important;
+
+}
+
+
+/* Changes console input */
+
+.JQChZ,
+.csimfD {
+        border-color: var(--accent-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+        transform: scale(0.95) !important;
+        margin-top: .25vw !important;
+}
+
+
+
+/* Changes input text area */
+
+.kZaCVF {
+        border-color: var(--accent-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+    margin-top: .25vw !important;
+}
+
+
+/* Changes schedule, Users, Network, File Manager */
+
+.kqnFDg,
+.kHuGmn,
+.hIHBYg,
+.eGIYvK,
+.bmqKpQ,
+.fQUMLV {
+        border-radius: var(--border-radius) !important;
+        background-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes Network Icon */
+
+#app>div.sc-2l91w7-0.kDhnAT>div.sc-1p0gm8n-0.kaVYNu>section>div.x3r2dw-0.kbxq2g-0.evldyg.cZTZeB.fade-appear-done.fade-enter-done>div.sc-1xo9c6v-0.yy3pdt-3.gFWKai.hIHBYg>div.yy3pdt-4.irtdLf>div.yy3pdt-5.jCOUjK>svg {
+        color: var(--text-color) !important;
+}
+
+
+/* Changes console input */
+
+[type="text"],
+[type="email"],
+[type="url"],
+[type="password"],
+[type="number"],
+[type="date"],
+[type="datetime-local"],
+[type="month"],
+[type="search"],
+[type="tel"],
+[type="time"],
+[type="week"],
+[multiple],
+textarea,
+select {
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-color: transparent !important;
+        color: var(--text-color) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+
+/* Changes check boxes */
+
+.uOUEk.uOUEk,
+.jVkAsT[type="checkbox"],
+.jVkAsT[type="radio"] {
+        border-radius: var(--border-radius) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-color: var(--accent-color) !important;
+}
+
+
+/* Changes Sub-User */
+
+.kqnFDg::-webkit-scrollbar {
+        background: var(--secondary-bg-color) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+.ekHIsr {
+        background-color: var(--secondary-bg-color) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+
+/* Fixes border radius when moving off of div */
+
+.icxFlO,
+.elUIig {
+        border-radius: var(--border-radius) !important;
+}
+
+
+/* Changes selected admin page */
+
+.skin-blue .sidebar-menu>li.active>a {
+        box-shadow: var(--accent-color) 0px -0px inset !important;
+        border-left-color: var(--accent-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Changes background color of hovered admin page */
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .sidebar-menu>li.active>a,
+.skin-blue .sidebar-menu>li.menu-open>a,
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+        background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Changes category name */
+
+.skin-blue .sidebar-menu>li.header {
+        color: var(--text-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Changes selected tab and background color */
+
+.nav-tabs-custom>.nav-tabs>li.active,
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+        border-top-color: var(--accent-color) !important;
+        border-bottom-color: var(--accent-color) !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a,
+.nav-tabs-custom>.nav-tabs>li.active:hover>a {
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-color: transparent;
+}
+
+.nav-tabs-custom>.nav-tabs>li:hover {
+        border-top-color: var(--accent-color) !important;
+}
+
+/* Removes border */
+
+.box-footer,
+hr {
+        border-top: none !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active,
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+        background-color: var(--secondary-bg-color-alt) !important;
+}
+
+/* Removes port bubble */
+
+.cxwlaX, .bceLDp {
+        background: var(--secondary-bg-color-alt) !important;
+}
+
+/* Fixes console scroll bar */
+
+.xterm .xterm-viewport::-webkit-scrollbar {
+        background: var(--secondary-bg-color-alt) !important;
+}
+
+/* Fixes login page */
+
+.eWTBmo, .kZiVrb, .kZiVrb:hover, .kdZiuU, .fMOYf, .fMOYf:hover {
+        color: var(--text-color) !important;
+}
+
+.dVhqhq {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: transparent !important;
+        box-shadow: none !important;
+}
+
+.fPcGHZ:not([type="checkbox"]):not([type="radio"]) {
+        border-color: var(--accent-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+/* Fixes search button */
+
+.btn-default {
+        border-color: var(--accent-secondary-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+.btn-default {
+        margin-right: .25vw !important;
+}
+
+.input-group .form-control {
+        margin-right: .25vw !important;
+}
+
+.bg-red,
+.bg-yellow,
+.bg-aqua,
+.bg-blue,
+.bg-light-blue,
+.bg-green,
+.bg-navy,
+.bg-teal,
+.bg-olive,
+.bg-lime,
+.bg-orange,
+.bg-fuchsia,
+.bg-purple,
+.bg-maroon,
+.bg-black,
+.bg-red-active,
+.bg-yellow-active,
+.bg-aqua-active,
+.bg-blue-active,
+.bg-light-blue-active,
+.bg-green-active,
+.bg-navy-active,
+.bg-teal-active,
+.bg-olive-active,
+.bg-lime-active,
+.bg-orange-active,
+.bg-fuchsia-active,
+.bg-purple-active,
+.bg-maroon-active,
+.bg-black-active,
+.callout.callout-danger,
+.callout.callout-warning,
+.callout.callout-info,
+.callout.callout-success,
+.alert-success,
+.alert-danger,
+.alert-error,
+.alert-warning,
+.alert-info,
+.label-danger,
+.label-info,
+.label-warning,
+.label-primary,
+.label-success,
+.modal-primary .modal-body,
+.modal-primary .modal-header,
+.modal-primary .modal-footer,
+.modal-warning .modal-body,
+.modal-warning .modal-header,
+.modal-warning .modal-footer,
+.modal-info .modal-body,
+.modal-info .modal-header,
+.modal-info .modal-footer,
+.modal-success .modal-body,
+.modal-success .modal-header,
+.modal-success .modal-footer,
+.modal-danger .modal-body,
+.modal-danger .modal-header,
+.modal-danger .modal-footer {
+        border-radius: var(--border-radius) !important;
+
+}
+
+/* Fixes server list number */
+
+.xkLPZ {
+        border-radius: 100% !important;
+}
+
+.gKREGI:not(:disabled) {
+        background-color: var(--accent-light) !important;
+        border-color: var(--accent-light) !important;
+}
+
+.gKREGI:hover:not(:disabled) {
+        background-color: var(--accent-color) !important;
+        border-color: var(--accent-color) !important;
+}
+
+.bRKaoy:hover:not(:disabled) {
+        background-color: var(--accent-color) !important;
+        border-color: var(--accent-color) !important;
+}
+
+/* Fixes file editor */
+
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+        border-color: var(--accent-color) !important;
+        background-color: var(--secondary-bg-color) !important;
+        color: var(--text-color) !important;
+}
+
+/* Fixes Admin areas. */
+
+.box-body {
+        transform: scale(.98) !important;
+}
+
+.ifNwiE,
+.LdCMD,
+.fIhPZJ,
+.cFegvH,
+.box-body {
+        transform: scale(.98) !important;
+}
+
+.info-box,
+.info-box-icon {
+        border-radius: 15px !important;
+}
+
+body > div > div > section.content > div:nth-child(3) > div.col-sm-8 > div > div.box-body > pre, textarea.form-control, input.form-control, body > div > div > section.content > div:nth-child(3) > div.col-sm-8 > div > div.box-body > pre {
+        border-color: var(--accent-secondary-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+.hNrKxe, .dMZZHB, .dHRxAp, .epSLdr, .bsrsDD, .ffSVrP, .fZqvbJ, .fLfaAY, .bsSkeI, .jIIIrT, .EwfIk, .izAmwE, code, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-search--inline .select2-search__field:focus, .select2-container--default .select2-search--inline .select2-search__field {
+        background: transparent !important;
+        color: #fafafa !important;
+}
+
+/* Fixes nest, eggs, and mounts */
+
+.modal-body, .modal-header, .modal-footer {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--secondary-bg-color-alt) !important;
+}
+
+textarea.form-control, input.form-control {
+        border-color: var(--accent-secondary-color) !important;
+        background-color: var(--secondary-bg-color-alt) !important;
+        border-radius: var(--border-radius) !important;
+}
+
+/* Fixes selection for admin pages. */
+
+.select2-results__option {
+        color: #fafafa !important;
+        background: #282a36  !important;
+}
+
+.select2-container--open .select2-dropdown--below {
+        margin-top: .25vw !important; 
+        border: none !important;
+        border-radius: 15px !important;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+        border-radius: 15px !important;
+}
+
+.select2-dropdown {
+        border-radius: 15px !important;
+        background: transparent !important;
+        border: none !important;
+}
+
+.select2-results__options::-webkit-scrollbar, .select2-results::-webkit-scrollbar {
+        display: none !important;
+}
