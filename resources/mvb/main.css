@@ -1301,6 +1301,6 @@ textarea.form-control, input.form-control {
 }
 
 ::-webkit-scrollbar {
-	background: var(--main-bg-color) !important;
+	background: var(--secondary-bg-color) !important;
 
 }
