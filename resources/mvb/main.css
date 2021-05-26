@@ -1281,6 +1281,3 @@ textarea.form-control, input.form-control {
 	border: none !important;
 }
 
-.select2-results__options::-webkit-scrollbar, .select2-results::-webkit-scrollbar {
-	display: none !important;
-}
