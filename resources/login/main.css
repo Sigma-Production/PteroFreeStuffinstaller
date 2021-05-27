@@ -9,7 +9,6 @@
   --accent-light: #F08080 !important;
 }
 
-/* Changes Background */
 
 /* Changes Background */
 
@@ -591,8 +590,6 @@ body:active .mdv div,
                 transform: translate3d(11vw, 15vh, 0) rotate(231deg);
         }
 }
-
-
 /* Changes Header Color */
 
 .ebtnLL,
