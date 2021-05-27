@@ -6,7 +6,7 @@ rm -rf index.tsx
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/index.tsx
 cd /var/www/pterodactyl/resources/views/templates/
 rm -rf wrapper.blade.php
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/wrapper.blade.php
+https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/login/wrapper.blade.php
 clear
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
