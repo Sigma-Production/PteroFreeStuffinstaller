@@ -4,9 +4,6 @@ rm -rf main.css
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/main.css
 rm -rf index.tsx
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/index.tsx
-cd /var/www/pterodactyl/resources/views/layouts/
-rm -rf admin.blade.php
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/admin.blade.php
 clear
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
