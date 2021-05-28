@@ -24,7 +24,7 @@ fi
 if [ $choice == "4" ]
     then
     echo "Installing DarkNPurple Theme..."
-    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNPurp/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNPurple/install.sh)
 fi
 
 if [ $choice == "5" ]
