@@ -1,9 +1,9 @@
 :root {
-  --main-bg-color: #282a36 !important;
-  --secondary-bg-color: #15c8d1 !important;
+  --main-bg-color: #4355bf !important;
+  --secondary-bg-color: #242631 !important;
   --secondary-bg-color-alt: #20222c !important;
-  --accent-color: #15c8d1 !important;
-  --accent-secondary-color: #15c8d1 !important;
+  --accent-color: #bc13fe !important;
+  --accent-secondary-color: #bc13fe !important;
   --text-color: #fafafa !important;
   --border-radius: 4px !important;
   --accent-light: #87F080 !important;
