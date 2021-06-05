@@ -2,9 +2,7 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts
 rm -rf main.css
-wget https://raw.githubusercontent.com/RTK23-dev/PteroFreeStuffinstaller/main/resources/Navy/main.css
-rm -rf index.tsx
-wget https://raw.githubusercontent.com/RTK23-dev/PteroFreeStuffinstaller/main/resources/DarkNRed/index.tsx
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/Navy/main.css
 clear
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
