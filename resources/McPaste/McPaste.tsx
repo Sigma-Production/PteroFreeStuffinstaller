@@ -97,7 +97,7 @@ export default () => {
                     mcPaste()
                 }}
             >
-                Send to McPaste.com
+                Send console to McPaste.com
             </Button>
             <SwitchTransition>
                 <Fade timeout={250} key={copied !== false ? 'visible' : 'invisible'}>
