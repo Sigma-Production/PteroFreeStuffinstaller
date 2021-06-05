@@ -896,17 +896,17 @@ body > div > div > section.content > div:nth-child(3) > div.col-sm-8 > div > div
 	-webkit-box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 4px var(--accent-color) !important;
 }
 
-::-webkit-scrollbar-thumb {
-	border-right-width: 4px !important;
-	border-left-width: 4px !important;
+
+	right-width: 4px !important;
+	: 4px !important;
 	-webkit-border-radius: 9px 4px !important;
 	-webkit-box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 4px var(--accent-color) !important;
 }
 
-::-webkit-scrollbar {
-	background: var(--secondary-bg-color) !important;
 
-}
+
+
+
 
 
 /* Changes console input */
