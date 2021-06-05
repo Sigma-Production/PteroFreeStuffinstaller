@@ -1,7 +1,7 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts
 rm -rf main.css
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mcTheme/main.css
+wget https://raw.githubusercontent.com/RTK23-dev/PteroFreeStuffinstaller/main/resources/mcTheme/main.css
 rm -rf index.tsx
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/index.tsx
 cd /var/www/pterodactyl/resources/views/layouts/
