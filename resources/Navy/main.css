@@ -1,10 +1,10 @@
 
 :root {
-  --main-bg-color: #ff96cb !important;
-  --secondary-bg-color: #000000 !important;
+  --main-bg-color: #121124 !important;
+  --secondary-bg-color: #12ebff !important;
   --secondary-bg-color-alt: #121124 !important;
-  --accent-color: #0d0d0d !important;
-  --accent-secondary-color: #0d0d0d !important;
+  --accent-color: #12ebff !important;
+  --accent-secondary-color: #12ebff !important;
   --text-color: #fafafa !important;
   --border-radius: 4px !important;
   --accent-light: #87F080 !important;
