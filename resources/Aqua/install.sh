@@ -1,3 +1,4 @@
+set -e
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts
 rm -rf main.css
