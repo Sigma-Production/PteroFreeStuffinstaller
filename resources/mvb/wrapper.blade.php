@@ -39,21 +39,21 @@
 
         @include('layouts.scripts')
     </head>
-<div class="mdv">
-<div class="purple"></div>
-<div class="medium-blue"></div>
-<div class="light-blue"></div>
-<div class="red"></div>
-<div class="orange"></div>
-<div class="yellow"></div>
-<div class="cyan"></div>
-<div class="light-green"></div>
-<div class="lime"></div>
-<div class="magenta"></div>
-<div class="lightish-red"></div>
-<div class="pink"></div>
-</div>    
-<body class="{{ $css['body'] ?? 'bg-neutral-50' }}">
+    <body class="{{ $css['body'] ?? 'bg-neutral-50' }}">
+        <div class="mdv">
+            <div class="purple"></div>
+            <div class="medium-blue"></div>
+            <div class="light-blue"></div>
+            <div class="red"></div>
+            <div class="orange"></div>
+            <div class="yellow"></div>
+            <div class="cyan"></div>
+            <div class="light-green"></div>
+            <div class="lime"></div>
+            <div class="magenta"></div>
+            <div class="lightish-red"></div>
+            <div class="pink"></div>
+        </div>
         @section('content')
             @yield('above-container')
             @yield('container')
