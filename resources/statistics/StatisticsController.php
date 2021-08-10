@@ -1,7 +1,8 @@
 <?php
 
 namespace Pterodactyl\Http\Controllers\Admin;
-
+use Carbon\Carbon;
+use Illuminate\Cache\Repository;
 use Pterodactyl\Http\Controllers\Controller;
 use Pterodactyl\Contracts\Repository\EggRepositoryInterface;
 use Pterodactyl\Traits\Controllers\PlainJavascriptInjection;
@@ -10,6 +11,9 @@ use Pterodactyl\Contracts\Repository\UserRepositoryInterface;
 use Pterodactyl\Contracts\Repository\ServerRepositoryInterface;
 use Pterodactyl\Contracts\Repository\DatabaseRepositoryInterface;
 use Pterodactyl\Contracts\Repository\AllocationRepositoryInterface;
+use Pterodactyl\Extensions\Spatie\Fractalistic\Fractal;
+use Pterodactyl\Transformers\Api\Client\StatsTransformer;
+use Pterodactyl\Repositories\Wings\DaemonServerRepository;
 
 class StatisticsController extends Controller
 {
