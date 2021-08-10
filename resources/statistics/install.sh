@@ -14,6 +14,12 @@ wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/r
 cd /var/www/pterodactyl/routes
 rm -rf admin.php
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/statistics/admin.php
+cd /var/www/pterodactyl/app/Repositories/Eloquent
+rm ServerRepository.php
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/statistics/ServerRepository.php
+cd /var/www/pterodactyl/app/Contracts/Repository
+rm ServerRepositoryInterface.php
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/statistics/ServerRepositoryInterface.php
 clear
 php /var/www/pterodactyl/artisan up
 echo "Statistics"
