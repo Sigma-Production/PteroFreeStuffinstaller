@@ -70,6 +70,5 @@ interface ServerRepositoryInterface extends RepositoryInterface
      * Returns all of the servers that exist for a given node in a paginated response.
      */
     public function loadAllServersForNode(int $node, int $limit): LengthAwarePaginator;
-    */
     public function getSuspendedServersCount(): int;
 }
