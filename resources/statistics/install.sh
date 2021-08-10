@@ -20,6 +20,5 @@ wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/r
 cd /var/www/pterodactyl/app/Contracts/Repository
 rm ServerRepositoryInterface.php
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/statistics/ServerRepositoryInterface.php
-clear
 php /var/www/pterodactyl/artisan up
 echo "Statistics"
