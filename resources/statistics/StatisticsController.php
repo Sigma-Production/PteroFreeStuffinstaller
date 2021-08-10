@@ -51,7 +51,7 @@ class StatisticsController extends Controller
         $eggsCount = $this->eggRepository->count();
         $databasesCount = $this->databaseRepository->count();
         $totalAllocations = $this->allocationRepository->count();
-        //$suspendedServersCount = $this->serverRepository->getSuspendedServersCount();
+        $suspendedServersCount = $this->serverRepository->getSuspendedServersCount();
 
         $totalServerRam = 0;
         $totalNodeRam = 0;
@@ -72,7 +72,7 @@ class StatisticsController extends Controller
 
         $this->injectJavascript([
             'servers' => $servers,
-            //'suspendedServers' => $suspendedServersCount,
+            'suspendedServers' => $suspendedServersCount,
             'totalServerRam' => $totalServerRam,
             'totalNodeRam' => $totalNodeRam,
             'totalServerDisk' => $totalServerDisk,
