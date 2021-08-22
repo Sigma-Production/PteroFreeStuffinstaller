@@ -5,8 +5,8 @@ wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/r
 rm -rf index.tsx
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/index.tsx
 clear
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-apt install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt-get install -y nodejs
 npm i -g yarn
 cd /var/www/pterodactyl
 yarn install
