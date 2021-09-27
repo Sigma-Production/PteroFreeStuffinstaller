@@ -1,4 +1,4 @@
-# DarkNYellow
+# DarkNGreen
 
 #### Login
 ![Login Screen](https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/theme-images/DarkNGreen/login.png)
