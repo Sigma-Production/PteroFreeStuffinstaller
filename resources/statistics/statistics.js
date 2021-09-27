@@ -58,61 +58,17 @@ let statusChart = new Chart($('#status_chart'), {
 });
 
 var servers = Pterodactyl.servers;
-var nodes = Pterodactyl.nodes;
 
 for (let i = 0; i < servers.length; i++) {
-    setTimeout(getStatus, 200 * i, servers[i]);
+	getStatus(servers[i])
 }
 
 function getStatus(server) {
-    var uuid = server.uuid;
-    var node = getNodeByID(server.node_id);
+	var statusOfServer = Pterodactyl.serverstatus[server.uuid].attributes.current_state;
+	
+	if(statusOfServer == "running") statusChart.data.datasets[0].data[0]++
+	else if(statusOfServer == "offline") statusChart.data.datasets[0].data[1]++
+	else statusChart.data.datasets[0].data[2]++
 
-    $.ajax({
-        type: 'GET',
-        url: node.scheme + '://' + node.fqdn + ':'+node.daemonListen+'/v1/server',
-        timeout: 5000,
-        headers: {
-            'X-Access-Server': uuid,
-            'X-Access-Token': Pterodactyl.tokens[node.id],
-        }
-    }).done(function (data) {
-
-        if (typeof data.status === 'undefined') {
-            // Error
-            statusChart.data.datasets[0].data[3]++;
-            return;
-        }
-
-        switch (data.status) {
-            case 0:
-            case 3:
-            case 30:
-                // Offline
-                statusChart.data.datasets[0].data[1]++;
-                break;
-            case 1:
-            case 2:
-                // Online
-                statusChart.data.datasets[0].data[0]++;
-                break;
-            case 20:
-                // Installing
-                statusChart.data.datasets[0].data[2]++;
-                break;
-        }
-        statusChart.update();
-    }).fail(function (jqXHR) {
-        // Error
-        statusChart.data.datasets[0].data[3]++;
-        statusChart.update();
-    });
-}
-
-function getNodeByID(id) {
-    for (var i = 0; i < nodes.length; i++) {
-        if (nodes[i].id === id) {
-            return nodes[i];
-        }
-    }
+	statusChart.update();
 }
