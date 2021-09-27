@@ -1,7 +1,7 @@
 # Pterodactyl Free Stuff installer
 An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Panel V1.x.x this will not work on 0.x.x
 
-Pictures of themes are in themes.md
+Pictures of themes are (coming soon) in themes.md
 
   
   
