@@ -6,7 +6,7 @@ Free pterodactyl Themes & Addons for pterodactyl panel V1.x.x
 ## Install
 A simple menu where u can choose wich addon or theme u want
 **Use root when running this! Else the script will fail!**  
-`bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)`
+```bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)```
 
 ## Issues?
 If you have any issues, open an issue on this github.
