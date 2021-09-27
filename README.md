@@ -1,5 +1,7 @@
 # Pterodactyl Free Stuff installer
-Free pterodactyl Themes & Addons for pterodactyl panel V1.x.x
+An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Panel V1.x.x this will not work on 0.x.x
+
+Pictures of themes are in themes.md
 
   
   
@@ -19,4 +21,4 @@ That is possible make an issue when u get approved u need to send ur addon or th
 Or if u have request what i should add make a issue
 
 
-Made By Finniedj, JohnB75, Twixgamer
+Made By Finniedj, JohnB17, Twixgamer
