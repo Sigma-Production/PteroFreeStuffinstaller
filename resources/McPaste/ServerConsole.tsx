@@ -1,6 +1,5 @@
 import React, { lazy, memo } from 'react';
 import { ServerContext } from '@/state/server';
-import Spinner from '@/components/elements/Spinner';
 import Can from '@/components/elements/Can';
 import ContentContainer from '@/components/elements/ContentContainer';
 import tw from 'twin.macro';
@@ -8,9 +7,9 @@ import ServerContentBlock from '@/components/elements/ServerContentBlock';
 import ServerDetailsBlock from '@/components/server/ServerDetailsBlock';
 import isEqual from 'react-fast-compare';
 import PowerControls from '@/components/server/PowerControls';
-import { EulaModalFeature } from '@feature/index';
+import { EulaModalFeature, JavaVersionModalFeature } from '@feature/index';
 import ErrorBoundary from '@/components/elements/ErrorBoundary';
-import McPaste from "@/components/server/McPaste";
+import Spinner from '@/components/elements/Spinner';
 
 export type PowerAction = 'start' | 'stop' | 'restart' | 'kill';
 
@@ -46,12 +45,12 @@ const ServerConsole = () => {
                             </ContentContainer>
                         </div>
                         :
-<div>
-	<Can action={[ 'control.start', 'control.stop', 'control.restart' ]} matchAny>
-		<PowerControls/>
-	</Can>
-	<McPaste />
-</div>
+                        <div>
+                        	<Can action={[ 'control.start', 'control.stop', 'control.restart' ]} matchAny>
+                        		<PowerControls/>
+                        	</Can>
+                        	<McPaste />
+                        </div>
                 }
             </div>
             <div css={tw`w-full lg:w-3/4 mt-4 lg:mt-0 lg:pl-4`}>
