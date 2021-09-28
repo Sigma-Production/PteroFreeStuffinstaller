@@ -1,11 +1,11 @@
 php /var/www/pterodactyl/artisan down
-clear
 cd /var/www/pterodactyl/resources/scripts/components/server/databases
 rm -rf DatabaseRow.tsx
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/phpmyadmin/DatabaseRow.tsx
 cd /var/www/pterodactyl/public
 rm -rf pma_redirect.html
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/phpmyadmin/pma_redirect.html
+clear
 echo " "
 echo 'Where is phpMyAdmin located? Make sure to have "http://" or "https://" !'
 echo " "
