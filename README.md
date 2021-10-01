@@ -7,6 +7,7 @@ Pictures of themes:
 - [DarkNRed](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darknred.md)
 - [DarkNYellow](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darknyellow.md)
 - [MCTheme](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/mctheme.md)
+- [MVB](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/mvb.md)
   
 ## Install
 A simple menu where u can choose wich addon or theme u want
