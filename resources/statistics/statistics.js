@@ -46,12 +46,12 @@ let serversChart = new Chart($('#servers_chart'), {
 let statusChart = new Chart($('#status_chart'), {
     type: 'pie',
     data: {
-        labels: ['Online', 'Offline', 'Installing', 'Error'],
+        labels: ['Online', 'Offline', 'Error'],
         datasets: [
             {
                 label: '',
-                backgroundColor: ['#51B060', '#b7b7b7', '#E08E0B', '#ff0000'],
-                data: [0,0,0,0]
+                backgroundColor: ['#51B060', '#b7b7b7', '#ff0000'],
+                data: [0,0,0]
             }
         ]
     }
@@ -72,3 +72,9 @@ function getStatus(server) {
 
 	statusChart.update();
 }
+
+/*
+* name: JohnB17
+* id: 745
+* trans-id: 0YT922148R954423U
+*/
