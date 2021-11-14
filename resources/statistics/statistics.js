@@ -72,9 +72,3 @@ function getStatus(server) {
 
 	statusChart.update();
 }
-
-/*
-* name: JohnB17
-* id: 745
-* trans-id: 0YT922148R954423U
-*/
