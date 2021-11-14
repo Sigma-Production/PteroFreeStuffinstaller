@@ -33,7 +33,7 @@
             {!! Theme::css('css/pterodactyl.css?t={cache-version}') !!}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-            <link rel="stylesheet" href="http://is-having.fun/admin.css">
+
             <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -80,13 +80,12 @@
                                 <i class="fa fa-home"></i> <span>Overview</span>
                             </a>
                         </li>
-                        <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.settings') ?: 'active' }}">
-                            <a href="{{ route('admin.settings')}}">
-                                <i class="fa fa-wrench"></i> <span>Settings</span>
-                            </a>
                         <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.statistics') ?: 'active' }}">
                             <a href="{{ route('admin.statistics')}}">
                                 <i class="fa fa-tachometer"></i> <span>Statistics</span>
+                        <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.settings') ?: 'active' }}">
+                            <a href="{{ route('admin.settings')}}">
+                                <i class="fa fa-wrench"></i> <span>Settings</span>
                             </a>
                         </li>
                         <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.api') ?: 'active' }}">
@@ -189,6 +188,7 @@
                 <script>
                     $('#logoutButton').on('click', function (event) {
                         event.preventDefault();
+
                         var that = this;
                         swal({
                             title: 'Do you want to log out?',
@@ -198,9 +198,17 @@
                             cancelButtonColor: '#d33',
                             confirmButtonText: 'Log out'
                         }, function () {
-                            window.location = $(that).attr('href');
+                             $.ajax({
+                                type: 'POST',
+                                url: '{{ route('auth.logout') }}',
+                                data: {
+                                    _token: '{{ csrf_token() }}'
+                                },complete: function () {
+                                    window.location.href = '{{route('auth.login')}}';
+                                }
                         });
                     });
+                });
                 </script>
             @endif
 
