@@ -9,6 +9,6 @@ wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/r
 clear
 cd /var/www/pterodactyl
 yarn build:production
-php /var/www/pterodactyl/artisan up
 clear
+php /var/www/pterodactyl/artisan up
 echo "Removed Theme"
