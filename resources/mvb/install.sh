@@ -4,9 +4,6 @@ rm -rf main.css
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/main.css
 rm -rf index.tsx
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/index.tsx
-cd /var/www/pterodactyl/resources/views/layouts/
-rm -rf admin.blade.php
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/admin.blade.php
 cd /var/www/pterodactyl/resources/views/templates/
 rm -rf wrapper.blade.php
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/wrapper.blade.php
