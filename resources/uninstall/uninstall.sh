@@ -7,6 +7,8 @@ cd /var/www/pterodactyl/resources/views/templates
 rm wrapper.blade.php
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/wrapper.blade.php
 clear
+cd /var/www/pterodactyl
+yarn build:production
 php /var/www/pterodactyl/artisan up
 clear
 echo "Removed Theme"
