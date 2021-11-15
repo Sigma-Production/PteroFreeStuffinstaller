@@ -70,6 +70,10 @@ echo "* This script is not associated with the official Pterodactyl Project."
 print_brake 70
 echo
 
+Backup() {
+bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/Development/resources/backup.sh)
+}
+
 DarkNColor() {
 bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNColor.sh)
 }
@@ -98,6 +102,7 @@ ThemRemover() {
 
 while [ "$done" == false ]; do
   options=(
+    "Restore Backup"
     "Install DarkNColor"
     "Install MoreServerInfo"
     "Install MinecraftTheme"
@@ -110,6 +115,7 @@ while [ "$done" == false ]; do
   )
   
   actions=(
+    "Backup"
     "DarkNColor"
     "MoreServerInfo"
     "MinecraftTheme"
