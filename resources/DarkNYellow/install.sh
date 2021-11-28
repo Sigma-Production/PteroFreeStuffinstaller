@@ -8,7 +8,7 @@ cd /var/www/pterodactyl/resources/views/layouts/
 rm -rf admin.blade.php
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNRed/admin.blade.php
 clear
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 apt install -y nodejs
 npm i -g yarn
 cd /var/www/pterodactyl
