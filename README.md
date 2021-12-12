@@ -3,6 +3,7 @@ An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Pan
 
 Pictures of themes:
 - [DarkNGreen](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darkngreen.md)
+- [DarkNBlue](https://github.com/beastksoepic/PteroFreeStuffinstaller/blob/main/theme-images/darknblue.md)
 - [DarkNPurple](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darknpurple.md)
 - [DarkNRed](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darknred.md)
 - [DarkNYellow](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darknyellow.md)
