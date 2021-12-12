@@ -71,7 +71,7 @@ print_brake 70
 echo
 
 DarkNColor() {
-bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNColor.sh)
+bash <(curl -s https://raw.githubusercontent.com/beastksoepic/PteroFreeStuffinstaller/main/resources/DarkNColor.sh)
 }
 
 MoreServerInfo() {
