@@ -6,3 +6,4 @@ npm i -g yarn
 cd /var/www/pterodactyl
 yarn install
 yarn build:production
+echo "Upload progress tracker installed"
