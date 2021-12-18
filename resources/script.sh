@@ -90,6 +90,10 @@ phpmyadmin() {
  bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/phpmyadmin/install.sh)
   }
 
+UploadProgress() {
+ bash <(curl -sSL https://raw.githubusercontent.com/beastksoepic/PteroFreeStuffinstaller/main/resources/UploadProgress/install.sh)
+  }
+
 ThemRemover() {
  bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall.sh)
   }
@@ -103,6 +107,7 @@ while [ "$done" == false ]; do
     "Install MinecraftTheme"
     "Install Animated Background theme"
     "Install phpmyadminbutton addon"
+    "Install UploadProgress addon"
     "ThemeRemover"
     
     
@@ -115,6 +120,7 @@ while [ "$done" == false ]; do
     "MinecraftTheme"
     "mvbtheme"
     "phpmyadmin"
+    "UploadProgress"
     "ThemeRemover"
     
     
