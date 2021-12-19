@@ -24,3 +24,5 @@ If you have any issues, open an issue on this github.
 If you want your addon or theme in PteroExtras, simply create a Pull Request and I will review the addon or theme.
 
 Made By Finniedj, JohnB17, Twixgamer, beastksoepic
+
+### This is a fork of PteroFreeStuffinstaller with extra stuff added :)
