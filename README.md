@@ -1,4 +1,4 @@
-# Pterodactyl Free Stuff installer
+# Pterodactyl Extras
 An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Panel ``V1.x.x`` this will not work on ``0.x.x``
 
 Pictures of themes:
@@ -21,9 +21,6 @@ bash <(curl https://raw.githubusercontent.com/beastksoepic/PteroFreeStuffinstall
 If you have any issues, open an issue on this github.
 
 ## I want my addon or theme in here
-That is possible make an issue when u get approved u need to send ur addon or theme and i will added and u will get listed at Credits
+If you want your addon or theme in PteroExtras, simply create a Pull Request and I will review the addon or theme.
 
-Or if u have request what i should add make a issue
-
-
-Made By Finniedj, JohnB17, Twixgamer
+Made By Finniedj, JohnB17, Twixgamer, beastksoepic
