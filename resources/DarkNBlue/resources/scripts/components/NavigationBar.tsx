@@ -38,7 +38,7 @@ const RightNavigation = styled.div`
         }
         
         &:active, &:hover, &.active {
-            box-shadow: inset 0 -2px #dc143c;
+            box-shadow: inset 0 -2px #3205fa;
         }
     }
 `;
