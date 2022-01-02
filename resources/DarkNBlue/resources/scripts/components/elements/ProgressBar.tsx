@@ -8,7 +8,7 @@ import tw from 'twin.macro';
 const BarFill = styled.div`
     ${tw`h-full bg-theme-accent`};
     transition: 250ms ease-in-out;
-    box-shadow: 0 -2px 10px 2px hsl(347, 80%, 43%);
+    box-shadow: 0 -2px 10px 2px hsl(251, 96%, 50%);
 `;
 
 export default () => {
