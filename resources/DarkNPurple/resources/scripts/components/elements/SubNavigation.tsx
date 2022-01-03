@@ -21,7 +21,7 @@ const SubNavigation = styled.div`
 
             &:active, &.active {
                 ${tw`text-neutral-100`};
-                box-shadow: inset 0 -2px #DC143C;
+                box-shadow: inset 0 -2px #bc16fe;
             }
         }
     }
