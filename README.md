@@ -16,6 +16,12 @@ A simple menu where u can choose wich addon or theme u want
 bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)
 ```
 
+## Support?
+Join our discord group for free support also for other things then this installer, need even faster support open a ticket!
+``
+https://discord.gg/X5u7x4n2gY
+``
+
 ## Issues?
 If you have any issues, open an issue on this github.
 
