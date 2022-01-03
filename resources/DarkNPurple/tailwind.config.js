@@ -10,7 +10,7 @@ module.exports = {
             black: 'hsl(210, 27%, 10%)',
             white: '#ffffff',
 	    theme: {
-		accent: 'hsl(347, 80%, 43%)',
+		accent: 'hsl(283, 99%, 54%)',
 		main: 'hsl(231, 14%, 18%)',
 		'main-2': 'hsl(230, 15%, 16%)', 
  	    },
