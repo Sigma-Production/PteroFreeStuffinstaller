@@ -58,7 +58,7 @@ exit 1
 }
 
 done=false
-
+clear
 echo
 print_brake 70
 echo "* Pterodactyl-Freestuff-Installer Script @ $SCRIPT_VERSION"
