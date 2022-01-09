@@ -8,6 +8,7 @@ Pictures of themes:
 - [DarkNYellow](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darknyellow.md)
 - [MCTheme](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/mctheme.md)
 - [MVB](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/mvb.md)
+- [Login](https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/theme-images/login.md)
   
 ## Install
 A simple menu where u can choose wich addon or theme u want
