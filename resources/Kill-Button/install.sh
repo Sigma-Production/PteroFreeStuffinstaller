@@ -56,8 +56,9 @@ check_distro() {
 }
 
 
-#### Install Dependencies ####
 
+#### Install Dependencies ####
+clear
 dependencies() {
 echo
 print_brake 30
