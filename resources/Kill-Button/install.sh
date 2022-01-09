@@ -129,6 +129,7 @@ npm i -g yarn
 cd /var/www/pterodactyl
 yarn install
 yarn build:production
+php artisan up
 fi
 }
 
