@@ -75,7 +75,7 @@ bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstal
 }
 
 Addons() {
-bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/MoreServerInfo/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/script.sh)
 }
 
 MinecraftTheme() {
