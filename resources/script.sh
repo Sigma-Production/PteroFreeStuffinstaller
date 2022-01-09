@@ -63,7 +63,7 @@ echo
 print_brake 70
 echo "* Pterodactyl-Freestuff-Installer Script @ $SCRIPT_VERSION"
 echo
-echo "* Copyright (C) 2021 - 2021."
+echo "* Copyright (C) 2021 - 2022."
 echo "* https://github.com/finnie2006/PteroFreeStuffinstaller"
 echo
 echo "* This script is not associated with the official Pterodactyl Project."
