@@ -17,6 +17,7 @@ bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller
 ```
 ## Support?
 Join our discord group for free support also for other things then this installer, need even faster support open a ticket!
+
 [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/5t3KaGX8Bx)
 
 ## Issues?
