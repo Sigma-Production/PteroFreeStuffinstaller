@@ -86,8 +86,9 @@ mvbtheme() {
  bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/install.sh)
 }
 
-
-
+Animatedlogin() {
+ bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/login/install.sh)
+}
 
 
 while [ "$done" == false ]; do
@@ -96,6 +97,7 @@ while [ "$done" == false ]; do
     "Install Addons"
     "Install MinecraftTheme"
     "Install Animated Background theme"
+    "Install Animatedlogin"
 
     
     
@@ -107,6 +109,7 @@ while [ "$done" == false ]; do
     "Addons"
     "MinecraftTheme"
     "mvbtheme"
+    "Animatedlogin"
 
     
     
