@@ -74,7 +74,7 @@ DarkNColor() {
 bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNColor.sh)
 }
 
-MoreServerInfo() {
+Addons() {
 bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/MoreServerInfo/install.sh)
 }
 
@@ -86,24 +86,17 @@ mvbtheme() {
  bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/install.sh)
 }
 
-phpmyadmin() {
- bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/phpmyadmin/install.sh)
-  }
 
-ThemRemover() {
- bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall.sh)
-  }
 
 
 
 while [ "$done" == false ]; do
   options=(
     "Install DarkNColor"
-    "Install MoreServerInfo"
+    "Install Addons"
     "Install MinecraftTheme"
     "Install Animated Background theme"
-    "Install phpmyadminbutton addon"
-    "ThemeRemover"
+
     
     
     "Cancel Installation"
@@ -111,11 +104,10 @@ while [ "$done" == false ]; do
   
   actions=(
     "DarkNColor"
-    "MoreServerInfo"
+    "Addons"
     "MinecraftTheme"
     "mvbtheme"
-    "phpmyadmin"
-    "ThemeRemover"
+
     
     
     "cancel"
