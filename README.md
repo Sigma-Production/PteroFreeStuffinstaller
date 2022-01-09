@@ -14,7 +14,7 @@ Pictures of themes:
 A simple menu where u can choose wich addon or theme u want
 **Use root when running this! Else the script will fail!**  
 ```
-bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/script.sh)
+bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/script.sh)
 ```
 ## Support?
 Join our discord group for free support also for other things then this installer, need even faster support open a ticket!
