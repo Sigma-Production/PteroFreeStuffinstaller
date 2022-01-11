@@ -1,7 +1,7 @@
 php /var/www/pterodactyl/artisan down
 cd public/themes/pterodactyl/css
 cp pterodactyl.css pterodactyl.css.backup
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/DarkNBlue/public/themes/pterodactyl/css/pterodactyl.css
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/DarkNBlue/public/themes/pterodactyl/css/pterodactyl.css
 clear
 cd /var/www/pterodactyl
 if ! command -v node -v &> /dev/null
