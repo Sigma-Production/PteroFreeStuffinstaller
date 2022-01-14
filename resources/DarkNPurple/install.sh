@@ -11,7 +11,7 @@ else
    cp tailwind.config.js backup/
    echo "Created Backup going furthur"
 fi
-
+cd /var/www/pterodactyl
 sudo curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/DarkNPurple/DarkNPurple.tar.gz | sudo tar -xz
 #clear
 cd /var/www/pterodactyl
