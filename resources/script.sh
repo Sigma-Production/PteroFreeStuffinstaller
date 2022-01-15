@@ -79,7 +79,7 @@ bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstal
 }
 
 MinecraftTheme() {
- bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mcTheme/install.sh)
+ bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/mcTheme/install.sh)
 }
 
 mvbtheme() {
