@@ -1,14 +1,58 @@
 php /var/www/pterodactyl/artisan down
-cd /var/www/pterodactyl/resources/scripts/components/server
-rm -rf ServerConsole.tsx
-rm -rf McPaste.tsx
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/McPaste/McPaste.tsx
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/McPaste/ServerConsole.tsx
-clear
-npm i -g yarn
 cd /var/www/pterodactyl
-yarn install
-yarn run build:production
-clear
+DIR="/var/www/pterodactyl/backup"
+if [ -d "$DIR" ]; then
+echo -n "$DIR' There already is a backup do you want to create a new one? y/n "
+read answer
+
+# if echo "$answer" | grep -iq "^y" ;then
+
+if [ "$answer" != "${answer#[Yy]}" ] ;then # this grammar (the #[] operator) means that the variable $answer where any Y or y in 1st position will be dropped if they exist.
+    echo Yes
+rm -r backup/*
+mkdir -p backup/{resources,public}
+   cp -r resources/* backup/resources/
+   cp -r public/* backup/public/
+   cp tailwind.config.js backup/
+   echo "Created Backup going furthur"
+else
+    echo No
+fi
+
+else
+   echo "No backup found making one"
+   mkdir -p backup/{resources,public}
+   cp -r resources/* backup/resources/
+   cp -r public/* backup/public/
+   cp tailwind.config.js backup/
+   echo "Created Backup going furthur"
+fi
+
+#clear
+cd /var/www/pterodactyl
+
+if [ `which yum` ]; then
+  if ! command -v node -v &> /dev/null
+  then
+    curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash -
+    yum install nodejs
+  fi
+elif [ `which apt` ]; then
+  if ! command -v node -v &> /dev/null
+  then
+    curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    apt-get install -y nodejs
+  fi
+else
+   echo "Your OS is unsupported"
+fi
+
+if ! command -v yarn -v &> /dev/null
+then
+    npm i -g yarn
+fi
+cd /var/www/pterodactyl
+bash <(curl -sL https://github.com/HM4Development/mcpaste-addon/releases/download/v2.1.0/install.sh)
+#clear
 php /var/www/pterodactyl/artisan up
-echo "McPaste Installed"
+echo "MCPaste added from the official script at https://github.com/HM4Development/mcpaste-addon"
