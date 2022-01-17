@@ -31,6 +31,7 @@ read answer
     fi
     yarn install
     yarn build:production
+    php artisan up
     echo "Backup restored!"
     exit
   else
