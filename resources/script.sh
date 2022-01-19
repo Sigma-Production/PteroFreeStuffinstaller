@@ -90,7 +90,7 @@ phpmyadmin() {
  bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/phpmyadmin/install.sh)
   }
 
-ThemRemover() {
+ThemeRemover() {
  bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/uninstall/uninstall.sh)
   }
 
