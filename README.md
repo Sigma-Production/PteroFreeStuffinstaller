@@ -1,6 +1,10 @@
 # Pterodactyl Free Stuff installer
 An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Panel ``V1.x.x`` this will not work on ``0.x.x``
 
+## IMPORTANT
+Pterodactyl had some updates, we need to update our themes Currently the themes dont work Should be fixed this week
+
+
 Pictures of themes:
 - [DarkNGreen](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darkngreen.md)
 - [DarkNPurple](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/main/theme-images/darknpurple.md)
