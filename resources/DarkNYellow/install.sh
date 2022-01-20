@@ -55,5 +55,6 @@ fi
 yarn install
 yarn build:production
 #clear
+chown -R www-data:www-data /var/www/pterodactyl/*
 php /var/www/pterodactyl/artisan up
 echo "DarkNYellow theme added"
