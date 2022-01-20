@@ -3,6 +3,13 @@ An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Pan
 
 
 
+## Install
+A simple menu where u can choose wich addon or theme u want
+**Use root when running this! Else the script will fail!**  
+```
+bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/script.sh)
+```
+
 Pictures of themes:
 - [DarkNGreen](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V2/theme-images/darkngreen.md)
 - [DarkNPurple](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V2/theme-images/darknpurple.md)
@@ -12,12 +19,7 @@ Pictures of themes:
 - [MVB](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V2/theme-images/mvb.md)
 - [Login](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V2/theme-images/login.md)
   
-## Install
-A simple menu where u can choose wich addon or theme u want
-**Use root when running this! Else the script will fail!**  
-```
-bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/script.sh)
-```
+
 ## Support?
 Join our discord group for free support also for other things then this installer, need even faster support open a ticket!
 
