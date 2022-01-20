@@ -28,4 +28,4 @@ If applicable, add screenshots to help explain your problem.
 Add any other context about the problem here.
 
 **Pterodactyl error log **
-``tail -n 1000 /var/www/pterodactyl/storage/logs/laravel-$(date +%F).log | grep "\[$(date +%Y)"``
+tail -n 1000 /var/www/pterodactyl/storage/logs/laravel-$(date +%F).log | grep "\[$(date +%Y)"
