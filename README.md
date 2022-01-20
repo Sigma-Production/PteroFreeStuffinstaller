@@ -10,7 +10,7 @@ A simple menu where u can choose wich addon or theme u want
 bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/script.sh)
 ```
 
-#### Pictures of themes:####
+### Pictures of themes:
 - [DarkNGreen](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V2/theme-images/darkngreen.md)
 - [DarkNPurple](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V2/theme-images/darknpurple.md)
 - [DarkNRed](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V2/theme-images/darknred.md)
