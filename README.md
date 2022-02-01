@@ -4,7 +4,7 @@ An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Pan
 
 
 ## Install
-A simple menu where u can choose wich addon or theme u want
+A simple menu where you can choose which addon or theme you want
 **Use root when running this! Else the script will fail!**  
 ```
 bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/script.sh)
@@ -29,9 +29,9 @@ Join our discord group for free support also for other things then this installe
 If you have any issues, open an issue on this github.
 
 ## I want my addon or theme in here
-That is possible make an issue when u get approved u need to send ur addon or theme and i will added and u will get listed at Credits
+That is possible make an issue when you get approved u need to send your addon or theme and i will add and you will get listed at Credits
 
-Or if u have request what i should add make a issue
+Or if you have request what i should add make a issue
 
 
 © 2022 Sigma Productions
