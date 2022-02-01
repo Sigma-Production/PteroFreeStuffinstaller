@@ -29,7 +29,7 @@ Join our discord group for free support also for other things then this installe
 If you have any issues, open an issue on this github.
 
 ## I want my addon or theme in here
-That is possible make an issue when you get approved u need to send your addon or theme and i will add and you will get listed at Credits
+That is possible make an issue when you get approved you need to send your addon or theme and i will add and you will get listed at Credits
 
 Or if you have request what i should add make a issue
 
