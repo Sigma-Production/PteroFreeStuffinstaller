@@ -54,6 +54,7 @@
 					    <span><img src="{{ config('app.logo_backend') }}"></img></span>
 					@else
 						<span>Error CANT_PUT_LOGO</span>
+					@endif
                 </a>
                 <nav class="navbar navbar-static-top">
                     <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
