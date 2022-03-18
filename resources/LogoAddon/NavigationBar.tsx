@@ -94,7 +94,7 @@ export default () => {
                 <div id={'logo'}>
                     <Link to={'/'}>
                         {showLogo = true && 
-                            <img src={frontendLogo} style="height:32px;"></img>
+                            <img src={frontendLogo} css={tw`h-8`}></img>
                         }
                         {showText = true &&
                             <span>{name}</span>
