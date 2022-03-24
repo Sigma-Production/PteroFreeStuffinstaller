@@ -20,6 +20,10 @@
   padding-left: 14px;
 }
 
+.eQzRij {
+  z-index: 9999999999999999999 !important;
+}
+
 a.active::before {
   top: unset !important;
   right: unset !important;
