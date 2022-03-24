@@ -19,8 +19,9 @@ echo "2. Install Addons"
 echo "3. Install MinecraftTheme"
 echo "4. Install Animated Background theme"
 echo "5. Install Animatedlogin"
-echo "6. Restore from backup"
-echo "7. Close / Cancel"
+echo "6. Install Sidebar"
+echo "7. Restore from backup"
+echo "8. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
@@ -47,9 +48,14 @@ if [ $choice == "5" ]
 fi
 if [ $choice == "6" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/restore.sh)
+    echo "Installing Sidebar..."
+    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/Sidebar/install.sh)
 fi
 if [ $choice == "7" ]
+    then
+    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/restore.sh)
+fi
+if [ $choice == "8" ]
     then
     echo "Canceling..."
     exit 0
