@@ -56,6 +56,7 @@ then
     npm i -g yarn
 fi
 yarn install
+yarn add react-pro-sidebar
 yarn build:production
 #clear
 php /var/www/pterodactyl/artisan up
