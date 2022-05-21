@@ -7,7 +7,7 @@ An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Pan
 A simple menu where you can choose which addon or theme you want
 **Use root when running this! Else the script will fail!**  
 ```
-bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/script.sh)
+bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2.5/resources/script.sh)
 ```
 
 ### Pictures of themes:
