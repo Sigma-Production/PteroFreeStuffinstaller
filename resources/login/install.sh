@@ -7,7 +7,8 @@ rm LoginFormContainer.tsx
 wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/login/resources/scripts/components/auth/LoginFormContainer.tsx
 clear
 cd /var/www/pterodactyl
-yarn add react-tsparticles
+yarn add tsparticles-engine@next
+yarn add tsparticles@next
 npm i -g yarn
 cd /var/www/pterodactyl
 yarn install
