@@ -14,8 +14,8 @@ if [ $choice == "1" ]
 fi
 if [ $choice == "2" ]
     then
-    echo "Installing McPaste..."
-    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/McPaste/install.sh)
+    echo "Resource temporary disabled..."
+    #bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/McPaste/install.sh)
 fi
 if [ $choice == "3" ]
     then
