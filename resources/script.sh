@@ -43,8 +43,8 @@ if [ $choice == "4" ]
 fi
 if [ $choice == "5" ]
     then
-    echo "Installing Animated Login Theme..."
-    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/login/install.sh)
+    echo "resource temporary disabled"
+    #bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/login/install.sh)
 fi
 if [ $choice == "6" ]
     then
