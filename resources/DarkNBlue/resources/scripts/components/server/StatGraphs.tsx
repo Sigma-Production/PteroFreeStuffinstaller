@@ -156,7 +156,15 @@ export default () => {
                         </p>
                     }
                 </TitledGreyBox>
+                 <TitledGreyBox title={'Outbound Data'} icon={faEthernet}>
+                {status !== 'offline' ?
+                    <canvas id={'tx_chart'} ref={txRef} aria-label={'Server Outbound Data'} role={'img'}/>
+                    :
+                    <p css={tw`text-xs text-neutral-400 text-center p-3`}>
+                        Server is offline.
+                    </p>
+                }
+            </TitledGreyBox>
             </div>
-        </div>
     );
 };
