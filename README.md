@@ -1,5 +1,8 @@
 # Pterodactyl Free Stuff installer
 
+Note: pterodactyl released ``V1.9`` our themes have to be updated for it, please wait with installing our themes on v1.9 this will not work
+
+
 An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Panel ``V1.x.x`` this will not work on ``0.x.x``
 
 
