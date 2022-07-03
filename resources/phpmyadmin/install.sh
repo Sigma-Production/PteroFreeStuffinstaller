@@ -30,10 +30,10 @@ fi
 
 cd /var/www/pterodactyl/resources/scripts/components/server/databases
 rm -rf DatabaseRow.tsx
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.1/resources/phpmyadmin/DatabaseRow.tsx
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/phpmyadmin/DatabaseRow.tsx
 cd /var/www/pterodactyl/public
 rm -rf pma_redirect.html
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.1/resources/phpmyadmin/pma_redirect.html
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/phpmyadmin/pma_redirect.html
 if [ -z "$pmalocation" ]; then
 #clear
 echo "phpmyadmin already installed"

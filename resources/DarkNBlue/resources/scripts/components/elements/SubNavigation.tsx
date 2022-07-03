@@ -23,7 +23,7 @@ const SubNavigation = styled.div`
             &:active,
             &.active {
                 ${tw`text-neutral-100`};
-                box-shadow: inset 0 -2px ${theme`colors.theme.accent`.toString()};
+                box-shadow: inset 0 -2px ${theme`colors.cyan.600`.toString()};
             }
         }
     }
