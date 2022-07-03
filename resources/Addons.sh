@@ -10,27 +10,27 @@ read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     echo "Installing Serperate Kill-button..."
-    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/Kill-Button/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.8/resources/Kill-Button/install.sh)
 fi
 if [ $choice == "2" ]
     then
     echo "Resource temporary disabled..."
-    #bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/McPaste/install.sh)
+    #bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.8/resources/McPaste/install.sh)
 fi
 if [ $choice == "3" ]
     then
     echo "Installing MoreServerInfo..."
-    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/MoreServerInfo/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.8/resources/MoreServerInfo/install.sh)
 fi
 if [ $choice == "4" ]
     then
     echo "Installing Phpmyadmin button..."
-    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/phpmyadmin/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.8/resources/phpmyadmin/install.sh)
 fi
 if [ $choice == "5" ]
     then
     echo "Installing 0.7 Addon Statistics ..."
-    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/statistics/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.8/resources/statistics/install.sh)
 fi
 
 if [ $choice == "6" ]
