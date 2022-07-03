@@ -13,7 +13,7 @@ export const DropdownButtonRow = styled.button<{ danger?: boolean }>`
     transition: 150ms all ease;
 
     &:hover {
-        ${tw`text-neutral-700 bg-theme-main-2`};
+        ${(props) => (props.danger ? tw`text-red-700 bg-blue-100` : tw`text-neutral-700 bg-neutral-100`)};
     }
 `;
 
@@ -30,11 +30,11 @@ class DropdownMenu extends React.PureComponent<Props, State> {
         visible: false,
     };
 
-    componentWillUnmount () {
+    componentWillUnmount() {
         this.removeListeners();
     }
 
-    componentDidUpdate (prevProps: Readonly<Props>, prevState: Readonly<State>) {
+    componentDidUpdate(prevProps: Readonly<Props>, prevState: Readonly<State>) {
         const menu = this.menu.current;
 
         if (this.state.visible && !prevState.visible && menu) {
@@ -76,24 +76,25 @@ class DropdownMenu extends React.PureComponent<Props, State> {
         }
     };
 
-    triggerMenu = (posX: number) => this.setState(s => ({
-        posX: !s.visible ? posX : s.posX,
-        visible: !s.visible,
-    }));
+    triggerMenu = (posX: number) =>
+        this.setState((s) => ({
+            posX: !s.visible ? posX : s.posX,
+            visible: !s.visible,
+        }));
 
-    render () {
+    render() {
         return (
             <div>
                 {this.props.renderToggle(this.onClickHandler)}
                 <Fade timeout={150} in={this.state.visible} unmountOnExit>
                     <div
                         ref={this.menu}
-                        onClick={e => {
+                        onClick={(e) => {
                             e.stopPropagation();
                             this.setState({ visible: false });
                         }}
                         style={{ width: '12rem' }}
-                        css={tw`absolute bg-white p-2 rounded border border-theme-accent shadow-lg text-neutral-500 z-50 focus:ring-0 ring-0 hover:ring-0`}
+                        css={tw`absolute bg-white p-2 rounded border border-neutral-700 shadow-lg text-neutral-500 z-50`}
                     >
                         {this.props.children}
                     </div>

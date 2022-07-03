@@ -109,10 +109,10 @@ echo -e "* ${GREEN}Downloading files...${reset}"
 print_brake 25
 cd /var/www/pterodactyl/resources/scripts/components/server/console/
 rm PowerButtons.tsx
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/Kill-Button/PowerButtons.tsx
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.1/resources/Kill-Button/PowerButtons.tsx
 # cd /var/www/pterodactyl/resources/scripts/components/elements/
 # rm Button.tsx
-# wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/Kill-Button/Button.tsx
+# wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.1/resources/Kill-Button/Button.tsx
 }
 
 #### Panel Production ####

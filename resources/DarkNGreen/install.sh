@@ -29,7 +29,7 @@ else
    echo "Created Backup going furthur"
 fi
 
-sudo curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/DarkNGreen/DarkNGreen.tar.gz | sudo tar -xz
+sudo curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.1/resources/DarkNGreen/DarkNGreen.tar.gz | sudo tar -xz
 #clear
 cd /var/www/pterodactyl
 
