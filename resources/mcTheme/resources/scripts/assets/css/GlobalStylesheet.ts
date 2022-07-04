@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components/macro';
 
 export default createGlobalStyle`
     body {
-        ${tw`font-sans bg-mc bg-cover text-neutral-200`};
+        ${tw`font-sans bg-theme-main text-neutral-200`};
         letter-spacing: 0.015em;
     }
 
@@ -58,12 +58,6 @@ export default createGlobalStyle`
         border-top-width: 4px;
         border-bottom-width: 4px;
         -webkit-border-radius: 4px 9px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        -webkit-box-shadow:
-        inset 0 0 0 1px hsl(212, 92%, 43%),
-        inset 0 0 0 4px hsl(212, 92%, 43%);
     }
 
     ::-webkit-scrollbar-corner {

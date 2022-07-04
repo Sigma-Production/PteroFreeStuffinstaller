@@ -29,9 +29,9 @@ else
 fi
 
 cd /var/www/pterodactyl/resources/scripts/routers
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.1/resources/Sidebar/ServerRouter.css
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.2/resources/Sidebar/ServerRouter.css
 rm -r ServerRouter.tsx
-wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.1/resources/Sidebar/ServerRouter.tsx
+wget https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.2/resources/Sidebar/ServerRouter.tsx
 #clear
 cd /var/www/pterodactyl
 
