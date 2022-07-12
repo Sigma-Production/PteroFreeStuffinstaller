@@ -14,7 +14,7 @@ mkdir -p backup/{resources,public}
    cp -r resources/* backup/resources/
    cp -r public/* backup/public/
    cp tailwind.config.js backup/
-   echo "Created Backup going furthur"
+   echo "Created Backup going further"
 else
     echo No
 fi
@@ -25,7 +25,7 @@ else
    cp -r resources/* backup/resources/
    cp -r public/* backup/public/
    cp tailwind.config.js backup/
-   echo "Created Backup going furthur"
+   echo "Created Backup going further"
 fi
 
 sudo curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.9.2/resources/DarkNBlue/DarkNBlue.tar.gz | sudo tar -xz
