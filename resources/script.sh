@@ -19,7 +19,7 @@ echo "2. Install Addons"
 echo "3. Install MinecraftTheme"
 echo "4. Install Animated Background theme"
 echo "5. Install Animatedlogin"
-echo "6. Install Sidebar"
+echo "6. Install Sidebar (Unstable)"
 echo "7. Restore from backup"
 echo "8. Close / Cancel"
 read -p "Please enter a number: " choice
@@ -38,13 +38,13 @@ if [ $choice == "3" ]
 fi
 if [ $choice == "4" ]
     then
-    echo "Installing Animated Background Theme..."
-    bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/install.sh)
+    echo "Resource temporarily Disabled..."
+    #bash <(curl -sSL https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/main/resources/mvb/install.sh)
 fi
 if [ $choice == "5" ]
     then
-    echo "resource temporary disabled"
-    #bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/login/install.sh)
+    echo "Installing Animated login"
+    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/login/install.sh)
 fi
 if [ $choice == "6" ]
     then
