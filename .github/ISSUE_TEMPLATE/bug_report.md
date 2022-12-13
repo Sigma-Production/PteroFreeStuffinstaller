@@ -7,6 +7,10 @@ assignees: ''
 
 ---
 
+**Did you run on a clean panel?**
+(Pterodactyl did a major refactor a while back)
+**Y/N**
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
@@ -27,5 +31,5 @@ If applicable, add screenshots to help explain your problem.
 **Additional context**
 Add any other context about the problem here.
 
-**Pterodactyl error log **
+**Pterodactyl error log**
 tail -n 1000 /var/www/pterodactyl/storage/logs/laravel-$(date +%F).log | grep "\[$(date +%Y)"
