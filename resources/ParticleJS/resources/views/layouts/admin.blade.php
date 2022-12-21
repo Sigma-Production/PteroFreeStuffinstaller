@@ -26,7 +26,7 @@
             {!! Theme::css('vendor/sweetalert/sweetalert.min.css?t={cache-version}') !!}
             {!! Theme::css('vendor/animate/animate.min.css?t={cache-version}') !!}
             {!! Theme::css('css/pterodactyl.css?t={cache-version}') !!}
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
             <!--[if lt IE 9]>
@@ -87,8 +87,8 @@
                         </li>
                         <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.themes') ?: 'active' }}">
                             <a href="{{ route('admin.themes')}}">
-                                <i class="fa fa-gamepad"></i> <span>Theme</span>
-                            </a>
+                                <i class="fa fa-palette"></i> <span>Theme</span>
+                                </a>
                         </li>
                         <li class="header">MANAGEMENT</li>
                         <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.databases') ?: 'active' }}">
