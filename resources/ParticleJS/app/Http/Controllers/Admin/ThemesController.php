@@ -41,8 +41,6 @@ class ThemesController extends Controller
             'color' => 'required|string',
             'preset' => 'required|string',
             'interactive' => 'required|string',
-            'custom_enabled' => 'required|string',
-            'custom' => 'required|string',
         ]);
 
         $particlejs = ParticleJS::first();
