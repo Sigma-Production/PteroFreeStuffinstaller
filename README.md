@@ -12,17 +12,17 @@ The version number off the branch is the version that it works on on pterodactyl
 A simple menu where you can choose which addon or theme you want
 **Use root when running this! Else the script will fail!**  
 ```
-bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/script.sh)
+bash <(curl https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/script.sh)
 ```
 
 ### Pictures of themes:
-- [DarkNGreen](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darkngreen.md)
-- [DarkNPurple](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darknpurple.md)
-- [DarkNRed](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darknred.md)
-- [DarkNYellow](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darknyellow.md)
-- [MCTheme](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/mctheme.md)
-- [MVB](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/mvb.md)
-- [Login](https://github.com/finnie2006/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/login.md)
+- [DarkNGreen](https://github.com/Sigma-Production/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darkngreen.md)
+- [DarkNPurple](https://github.com/Sigma-Production/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darknpurple.md)
+- [DarkNRed](https://github.com/Sigma-Production/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darknred.md)
+- [DarkNYellow](https://github.com/Sigma-Production/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/darknyellow.md)
+- [MCTheme](https://github.com/Sigma-Production/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/mctheme.md)
+- [MVB](https://github.com/Sigma-Production/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/mvb.md)
+- [Login](https://github.com/Sigma-Production/PteroFreeStuffinstaller/blob/V1.10.1/theme-images/login.md)
   
 
 ## Support?

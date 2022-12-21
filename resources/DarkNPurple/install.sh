@@ -28,7 +28,7 @@ else
    echo "Created Backup going furthur"
 fi
 
-sudo curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/DarkNPurple/DarkNPurple.tar.gz | sudo tar -xz
+sudo curl https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/DarkNPurple/DarkNPurple.tar.gz | sudo tar -xz
 #clear
 cd /var/www/pterodactyl
 
