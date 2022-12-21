@@ -16,9 +16,9 @@ echo "* This script is not associated with the official Pterodactyl Project."
 echo
 echo "1. Install DarkNColor"
 echo "2. Install Addons"
-echo "3. Install MinecraftTheme"
-echo "4. Install Animated Background theme"
-echo "5. Install Animatedlogin"
+echo "3. Install Animated theme"
+echo "4. Install MinecraftTheme"
+echo "5. Install Animated Login theme"
 echo "6. Install Sidebar (Unstable)"
 echo "7. Restore from backup"
 echo "8. Close / Cancel"
@@ -33,13 +33,13 @@ if [ $choice == "2" ]
 fi
 if [ $choice == "3" ]
     then
-    echo "Installing Minecraft Theme..."
+    echo "Installing Particles themes..."
     bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/mcTheme/install.sh)
 fi
 if [ $choice == "4" ]
     then
-    echo "Resource temporarily Disabled..."
-    #bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/main/resources/mvb/install.sh)
+    echo "Installing Minecraft Theme..."
+    bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/mcTheme/install.sh)
 fi
 if [ $choice == "5" ]
     then
