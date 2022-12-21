@@ -34,7 +34,7 @@ fi
 if [ $choice == "3" ]
     then
     echo "Installing Particles themes..."
-    bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/mcTheme/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/ParticleJS/install.sh)
 fi
 if [ $choice == "4" ]
     then
