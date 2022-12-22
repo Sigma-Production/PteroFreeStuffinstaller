@@ -4,7 +4,8 @@
 An installer made for free Pterodactyl Panel themes & addons for Pterodactyl Panel ``V1.x.x`` this will not work on ``0.x.x``
 
 The version number off the branch is the version that it works on on pterodactyl
-1.10.4  is supported!
+
+## Supported: 1.10.X - 1.11.X
 
 
 
