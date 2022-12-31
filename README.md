@@ -40,4 +40,4 @@ That is possible make an issue when you get approved you need to send your addon
 Or if you have request what we should add make an issue or join our Discord
 
 
-© 2022 Sigma Productions
+© 2023 Sigma Productions
