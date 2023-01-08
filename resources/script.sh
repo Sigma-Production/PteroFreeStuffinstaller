@@ -8,7 +8,7 @@ echo
 #print_brake 70
 echo "* Pterodactyl-Freestuff-Installer Script @ $SCRIPT_VERSION"
 echo
-echo "* Copyright (C) 2021 - 2022."
+echo "* Copyright (C) 2021 - 2023."
 echo "* https://github.com/Sigma-Production/PteroFreeStuffinstaller"
 echo
 echo "* This script is not associated with the official Pterodactyl Project."
@@ -19,9 +19,8 @@ echo "2. Install Addons"
 echo "3. Install Animated theme"
 echo "4. Install MinecraftTheme"
 echo "5. Install Animated Login theme"
-echo "6. Install Sidebar (Unstable)"
-echo "7. Restore from backup"
-echo "8. Close / Cancel"
+echo "6. Restore from backup"
+echo "7. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
@@ -48,14 +47,9 @@ if [ $choice == "5" ]
 fi
 if [ $choice == "6" ]
     then
-    echo "Installing Sidebar..."
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/Sidebar/install.sh)
-fi
-if [ $choice == "7" ]
-    then
     bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/restore.sh)
 fi
-if [ $choice == "8" ]
+if [ $choice == "7" ]
     then
     echo "Canceling..."
     exit 0
