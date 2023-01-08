@@ -17,7 +17,7 @@ class ServerRepository extends EloquentRepository implements ServerRepositoryInt
      *
      * @return string
      */
-    public function model()
+    public function model(): string
     {
         return Server::class;
     }
@@ -77,7 +77,7 @@ class ServerRepository extends EloquentRepository implements ServerRepositoryInt
             return $this->getBuilder()->with('egg.variables', 'variables')
                 ->where($this->getModel()->getKeyName(), '=', $id)
                 ->firstOrFail($this->getColumns());
-        } catch (ModelNotFoundException $exception) {
+            } catch (ModelNotFoundException) {
             throw new RecordNotFoundException();
         }
     }
@@ -155,7 +155,7 @@ class ServerRepository extends EloquentRepository implements ServerRepositoryInt
                 ->firstOrFail($this->getColumns());
 
             return $model;
-        } catch (ModelNotFoundException $exception) {
+        } catch (ModelNotFoundException) {
             throw new RecordNotFoundException();
         }
     }
