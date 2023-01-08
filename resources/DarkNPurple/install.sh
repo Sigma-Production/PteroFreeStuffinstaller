@@ -57,4 +57,6 @@ yarn build:production
 #clear
 chown -R www-data:www-data /var/www/pterodactyl/*
 php /var/www/pterodactyl/artisan up
+php artisan view:clear
+php artisan config:clear
 echo "DarkNPurple theme added"

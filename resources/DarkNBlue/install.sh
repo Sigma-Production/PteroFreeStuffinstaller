@@ -54,6 +54,8 @@ then
 fi
 yarn install
 yarn build:production
+php artisan view:clear
+php artisan config:clear
 #clear
 php /var/www/pterodactyl/artisan up
 echo "DarkNBlue theme added"
