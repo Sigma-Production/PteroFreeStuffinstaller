@@ -40,7 +40,7 @@
 
         @include('layouts.scripts')
     </head>
-    <body class="bg-theme-main">
+    <body class="bg-neutral-900">
         @section('content')
             @yield('above-container')
             @yield('container')

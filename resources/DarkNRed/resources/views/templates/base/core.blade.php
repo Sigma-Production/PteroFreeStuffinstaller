@@ -1,5 +1,5 @@
 @extends('templates/wrapper', [
-    'css' => ['body' => 'bg-theme-main'],
+    'css' => ['body' => 'bg-neutral-900'],
 ])
 
 @section('container')
