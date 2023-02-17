@@ -56,5 +56,7 @@ yarn install
 yarn build:production
 php artisan migrate --seed --force
 #clear
+php /var/www/pterodactyl/artisan view:clear
+php /var/www/pterodactyl/artisan cache:clear
 php /var/www/pterodactyl/artisan up
 echo "Particles Js Installed"
