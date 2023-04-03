@@ -18,9 +18,8 @@ echo "1. Install DarkNColor"
 echo "2. Install Addons"
 echo "3. Install Animated theme"
 echo "4. Install MinecraftTheme"
-echo "5. Install Animated Login theme"
-echo "6. Restore from backup"
-echo "7. Close / Cancel"
+echo "5. Restore from backup"
+echo "6. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
@@ -42,14 +41,9 @@ if [ $choice == "4" ]
 fi
 if [ $choice == "5" ]
     then
-    echo "Installing Animated login"
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/login/install.sh)
-fi
-if [ $choice == "6" ]
-    then
     bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/restore.sh)
 fi
-if [ $choice == "7" ]
+if [ $choice == "6" ]
     then
     echo "Canceling..."
     exit 0
